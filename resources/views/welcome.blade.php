@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
     <head>
@@ -6,6 +7,12 @@
         <link href="https://fonts.googleapis.com/css?family=Lato:100" rel="stylesheet" type="text/css">
 
         <style>
+
+            /*background-color: #c2dde5; light blue*/
+            /*background-color: #bcc8db;  light purple*/
+            /*background-color: #e76630;  orange*/
+            /*background-color: #3b54ac;  blue*/
+
             html, body {
                 height: 100%;
             }
@@ -22,7 +29,20 @@
             .container {
                 text-align: center;
                 display: table-cell;
-                vertical-align: middle;
+                /*vertical-align: middle;*/
+            }
+
+            .header {
+                background-color: #BDCCDD; /* light blue-purple */
+                height: 150px;
+            }
+
+            .title {
+                font-size: 96px;
+            }
+
+            .sub-title {
+                font-size: 40px;
             }
 
             .content {
@@ -30,16 +50,36 @@
                 display: inline-block;
             }
 
-            .title {
-                font-size: 96px;
-            }
+
+
+
         </style>
     </head>
     <body>
         <div class="container">
+            <div class="header"></div>
+
             <div class="content">
-                <div class="title">Laravel 5</div>
+                <div class="title">Rachel Loziuk</div>
+                <div class="sub-title">Web Developer</div>
             </div>
         </div>
     </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
