@@ -76,7 +76,7 @@
         }
 
         #summary p{
-            font-size: 1.125em;
+            font-size: 1.2em;
             max-width: 500px;
             margin: 0 auto;
         }
