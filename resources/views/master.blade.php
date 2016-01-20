@@ -48,7 +48,7 @@
             background-color: #BDCCDD; /* light blue-purple */
         }
 
-        .my-name {
+        #name {
             font-size: 25px;
             font-weight: bold;
             text-align: left;
@@ -58,17 +58,29 @@
             width: 22px;
         }
 
-        .banner.pinata {
-            padding-top: 15px;
-        }
-
-        .content {
+        #banner, #summary{
             text-align: center;
         }
 
-        .banner.title {
+        #banner .title {
             font-size: 72px;
         }
+
+        #banner .pinata {
+            padding-top: 15px;
+        }
+
+        #summary h5 {
+            font-size: 1.125em;
+            font-family: "Courier New", Courier;
+        }
+
+        #summary p{
+            font-size: 1.125em;
+            max-width: 500px;
+            margin: 0 auto;
+        }
+
 
 
 
@@ -94,7 +106,7 @@
                     <span class="icon-bar"></span> -->
                 </button>
                 <!-- PERSONAL NAME/BRAND -->
-                <a class="navbar-brand my-name" href="#">Rachel Loziuk</a>
+                <a class="navbar-brand" id="name" href="#">Rachel Loziuk</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
