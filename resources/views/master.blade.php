@@ -44,7 +44,7 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 
-                <ul class="nav navbar-nav navbar-right">
+                <ul class="font-1 nav navbar-nav navbar-right">
                     <li><a href="#">Resume</a></li>
                     <li><a href="#">Projects</a></li>
                     <li><a href="#">Contact</a></li>
