@@ -12,83 +12,15 @@
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 
+    <link href="https://fonts.googleapis.com/css?family=Lato:100" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="{{ URL::asset('css/style.css') }}">
 
     <title>
         @yield('title')
 
     </title>
 
-    <link href="https://fonts.googleapis.com/css?family=Lato:100" rel="stylesheet" type="text/css">
-
-    <style>
-
-        /*background-color: #c2dde5; light blue*/
-        /*background-color: #bcc8db;  light purple*/
-        /*background-color: #BDCCDD;  light blue-purple */
-
-        /*background-color: #e76630;  orange*/
-        /*background-color: #3b54ac;  blue*/
-        /*background-color: #EBEBEB;  light gray*/
-
-
-   /*     html, body {
-            height: 100%;
-        }*/
-
-        body {
-            margin: 0;
-            padding: 0;
-            width: 100%;
-            font-weight: 100;
-            font-family: 'Lato';
-        }
-
-
-        .navbar{
-            background-color: #BDCCDD; /* light blue-purple */
-        }
-
-        #name {
-            font-size: 25px;
-            font-weight: bold;
-            text-align: left;
-        }
-
-        .menu.pinata {
-            width: 22px;
-        }
-
-        #banner, #summary{
-            text-align: center;
-        }
-
-        #banner .title {
-            font-size: 72px;
-        }
-
-        #banner .pinata {
-            padding-top: 15px;
-        }
-
-        #summary h5 {
-            font-size: 1.125em;
-            font-family: "Courier New", Courier;
-        }
-
-        #summary p{
-            font-size: 1.2em;
-            max-width: 500px;
-            margin: 0 auto;
-        }
-
-
-
-
-
-    </style>
-
 </head>
-
 
 
 <body>
