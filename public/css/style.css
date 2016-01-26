@@ -30,8 +30,11 @@
             text-align: left;
         }
 
-        .font-1.navbar-right {
+        .font-1 {
             font-family: "Courier New", Courier;
+        }
+
+        .navbar-right {
             font-size: 1.2em;   
         }
 
@@ -53,7 +56,6 @@
 
         #summary h4 {
             font-size: 1.2em;
-            font-family: "Courier New", Courier;
         }
 
         #summary p{
