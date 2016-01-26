@@ -11,13 +11,21 @@
 |
 */
 
-Route::get('/', function () {
+Route::get('/', ['as' => 'welcome', function () {
     return view('welcome');
-});
+}]);
 
-Route::get('01', function () {
-    return view('welcome-01');
-});
+Route::get('resume', ['as' => 'resume', function () {
+    return view('resume');
+}]);
+
+Route::get('projects', ['as' => 'projects', function () {
+    return view('projects');
+}]);
+
+Route::get('about', ['as' => 'about', function () {
+    return view('contact');
+}]);
 
 /*
 |--------------------------------------------------------------------------
