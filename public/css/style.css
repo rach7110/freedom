@@ -11,12 +11,20 @@
             height: 100%;
         }*/
 
+        html {
+            font-size: 18px;
+        }
+
         body {
             margin: 0;
             padding: 0;
             width: 100%;
             font-weight: 100;
             font-family: 'Lato';
+        }
+
+        li {
+            font-size: 1rem;
         }
 
 
@@ -42,6 +50,12 @@
             width: 22px;
         }
 
+        #footer {
+            height: 60px;
+        }
+
+        /*HOMEPAGE*/
+
         #banner, #summary{
             text-align: center;
         }
@@ -63,3 +77,30 @@
             max-width: 500px;
             margin: 0 auto;
         }
+
+        /*RESUME*/
+
+        .contact h4 {
+            margin-top: 2px;
+            margin-bottom: 2px;
+        }
+
+        .job-header p, .education-header p {
+            font-size: .8rem;
+            margin-bottom: 0px;
+        }
+
+        p.job-title, p.education-title {
+            font-size: 1.1rem;
+        }
+
+        .job-description{
+            padding-top: 5px;
+            padding-bottom: 10px;
+        }
+
+        .education {
+            margin-bottom: 10px;
+        }
+
+       
