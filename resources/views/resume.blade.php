@@ -6,14 +6,7 @@ Resume
 
 @section('content')
  
-<h1 class="font-1"> Rachel Loziuk</h1>
-<div class="contact">
-	<h4>2005 Glen Allen St. #112</h4>
-	<h4>Austin, TX 78704</h4>
-	<h4>rachel.loziuk@gmail.com</h4>
-</div>
-
-
+<h1 class="font-1"> Resume</h1>
 <hr>
 <h3>OBJECTIVE & SUMMARY</h3>
 <hr>
