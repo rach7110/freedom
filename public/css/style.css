@@ -20,26 +20,32 @@
             padding: 0;
             width: 100%;
             font-weight: 100;
-            font-family: 'Lato';
+            font-family: 'Lato', Arial, serif; ;
         }
 
         li {
             font-size: 1rem;
         }
 
+        .light-font {
+            font-weight: 100;
+        }
+
+        .heavy-font, p {
+            font-weight: 300;
+        }
+
+        .font-1 {
+            font-family: "Courier New", Courier;
+        }
 
         .navbar{
             background-color: #BDCCDD; /* light blue-purple */
         }
 
-        #name {
+        #navbar-name {
             font-size: 25px;
-            font-weight: bold;
             text-align: left;
-        }
-
-        .font-1 {
-            font-family: "Courier New", Courier;
         }
 
         .navbar-right {

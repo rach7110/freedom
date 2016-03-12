@@ -3,21 +3,20 @@
 <html>
 
 <head>
+    <!-- JQUERY -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-
-    <!-- Latest compiled and minified JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous">
-    </script>
-
-    <!-- Latest compiled and minified CSS -->
+    <!-- JQUERY FOR BOOTSTRAP -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    <!-- CSS FOR BOOTSTRAP -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <!-- GOOGLE FONTS -->
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,100" rel="stylesheet" type="text/css">
 
-    <link href="https://fonts.googleapis.com/css?family=Lato:100" rel="stylesheet" type="text/css">
     <link rel="stylesheet" type="text/css" href="{{ URL::asset('css/style.css') }}">
+
 
     <title>
         @yield('title')
-
     </title>
 
 </head>
@@ -38,7 +37,7 @@
                     <span class="icon-bar"></span> -->
                 </button>
                 <!-- PERSONAL NAME/BRAND -->
-                <a class="navbar-brand" id="name" href="{{ route('welcome' )}}">Rachel Loziuk</a>
+                <a class="navbar-brand heavy-font" id="navbar-name" href="{{ route('welcome' )}}">Rachel Loziuk</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
