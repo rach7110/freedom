@@ -14,6 +14,10 @@
 
     <link rel="stylesheet" type="text/css" href="{{ URL::asset('css/style.css') }}">
 
+    <meta name="HandheldFriendly" content="true">
+    <meta name="viewport" content="width=device-width, initial-scale=0.666667, maximum-scale=0.666667, user-scalable=0">
+    <meta name="viewport" content="width=device-width">
+
 
     <title>
         @yield('title')
