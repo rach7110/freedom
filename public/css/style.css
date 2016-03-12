@@ -31,6 +31,10 @@
             font-weight: 100;
         }
 
+        .medium-font {
+            font-weight: 200;
+        }
+
         .heavy-font, p {
             font-weight: 300;
         }
