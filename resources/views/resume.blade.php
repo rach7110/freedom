@@ -11,7 +11,7 @@ Resume
 <h3>OBJECTIVE & SUMMARY</h3>
 <hr>
 <h4>
-	A problem‐solver and self‐starter with communication and business skills. Experience working in Web Development, Sales, Project Engineering, and Manufacturing Quality Assurance roles. Passionate about entrepreneurship and programming. Seeking a company that challenges me wile supporting my skill growth.
+    A problem‐solver and self‐starter with communication and business skills. Experience working in Web Development, Sales, Project Engineering, and Manufacturing Quality Assurance roles. Passionate about entrepreneurship and programming. Seeking a company that challenges me wile supporting my skill growth.
 </h4>
 
 <hr>
@@ -69,9 +69,9 @@ Resume
     <ul>
         <li>Modify company's existing legacy product written in PHP</li>
         <li>Use Laravel, an MVC framework for PHP,  to build out a new web application</li>
-        <li>Write front-end and back-end code using PHP, HTML, CSS, JavaScript and jQuery</li>
+        <li>Design and code new features using PHP, HTML, CSS, JavaScript and jQuery</li>
         <li>Use Git for version control</li>
-        <li>Familiar with databases: MySQL (production) and SQLite (development)</li>
+        <li>Work with databases, MySQL and SQLite</li>
         <li>Setup different environment configurations for development and production</li>
         <li>Connect to a Rackspace Linux server via ssh and pull new features to the production server</li>
         <li>Review error logs for troubleshooting</li>
@@ -102,8 +102,8 @@ Resume
 <div class="job-description">
     <ul>
         <li>Oversaw sales, marketing, administration, accounting, and engineering of a new business segment</li>
-        <li>Created digital marketing material and managed website content using Joomla CMS</li>
         <li>Generated leads through trade shows, online marketing campaigns, and cold calling</li>
+        <li>Created digital marketing material and managed website content using Joomla CMS</li>
         <li>Interviewed and trained new employees</li>
     </ul>
 </div>
