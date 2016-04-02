@@ -109,4 +109,15 @@
             margin-bottom: 10px;
         }
 
+        .template {
+            border: 1px dashed gray;
+            height: 200px;
+        }
+
+        /*CONTACT*/
+
+        .profile-picture {
+            height: 200px;
+        }
+
        
