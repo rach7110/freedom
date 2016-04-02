@@ -23,7 +23,7 @@ Route::get('projects', ['as' => 'projects', function () {
     return view('projects');
 }]);
 
-Route::get('about', ['as' => 'about', function () {
+Route::get('contact', ['as' => 'about', function () {
     return view('contact');
 }]);
 

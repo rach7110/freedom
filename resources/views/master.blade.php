@@ -50,7 +50,7 @@
                 <ul class="font-1 nav navbar-nav navbar-right">
                     <li><a href="{{ route('resume' )}}">Resume</a></li>
                     <li><a href="{{ route('projects') }}">Projects</a></li>
-                    <li><a href="{{ route('about' )}}">About Me</a></li>
+                    <li><a href="{{ route('about' )}}">Contact</a></li>
                     <li><a href='https://twitter.com/RachelLoziuk' target="_blank"><img src='images/twitter-white-small.png'></a></li>
                     <li><a href='https://github.com/rach7110' target="_blank"><img src='/images/github-white-4-small.png'></a></li>
 
