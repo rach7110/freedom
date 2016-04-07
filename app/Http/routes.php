@@ -27,6 +27,10 @@ Route::get('contact', ['as' => 'about', function () {
     return view('contact');
 }]);
 
+Route::post('message', ['as' => 'message', function () {
+    echo "Thanks for the message!";
+}]);
+
 /*
 |--------------------------------------------------------------------------
 | Application Routes
