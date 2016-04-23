@@ -16,6 +16,14 @@ Contact Me
 
 
 <div class="row">
+    <!-- ERROR MESSAGES -->
+    @if($errors)
+    <ul>
+        @foreach($errors->all() as $error)
+            <li>{{ $error }}</li>
+        @endforeach
+    </ul>
+    @endif
 
     <!--CONTACT FORM-->
     <div class="col-md-4 col-md-push-8">
