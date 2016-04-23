@@ -23,13 +23,13 @@ Route::get('projects', ['as' => 'projects', function () {
     return view('projects');
 }]);
 
-Route::get('contact', ['as' => 'about', function () {
-    return view('contact');
-}]);
+// Route::get('contact', ['as' => 'about', function () {
+//     return view('contact');
+// }]);
 
-Route::post('message', ['as' => 'message', function () {
-    echo "Thanks for the message!";
-}]);
+Route::get('contact', ['as' => 'about', 'uses' => 'AboutController@create']);
+
+Route::post('contact', ['as' => 'message', 'uses' => 'AboutController@store']);
 
 /*
 |--------------------------------------------------------------------------
