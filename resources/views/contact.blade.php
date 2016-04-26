@@ -51,18 +51,18 @@ Contact Me
             <div>
                 {{ Form::open(array('route' => 'message')) }}
                     <div class="form-group">
-                        {{ Form::label('Your Name') }}
-                        {{ Form::text('name', null, array('required', 'class'=>'form-control', 'placeholder'=>'Your name')) }}
+                        <!-- {{ Form::label('Name') }} -->
+                        {{ Form::text('name', null, array('required', 'class'=>'form-control', 'placeholder'=>'Name')) }}
                     </div>
 
                     <div class="form-group">
-                        {{ Form::label('Your Email') }}
-                        {{ Form::text('email', null, array('required', 'class'=>'form-control', 'placeholder'=>'Your e-mail address')) }}
+                        <!-- {{ Form::label('Email') }} -->
+                        {{ Form::text('email', null, array('required', 'class'=>'form-control', 'placeholder'=>'E-mail address')) }}
                     </div>
 
                     <div class="form-group">
-                        {{ Form::label('Your Message') }}
-                        {{ Form::textarea('message', null, array('required', 'class'=>'form-control',  'placeholder'=>'Your message')) }}
+                        <!-- {{ Form::label('Message') }} -->
+                        {{ Form::textarea('message', null, array('required', 'class'=>'form-control',  'placeholder'=>'Message')) }}
                     </div>
 
                     <input type="submit" value="Submit">
