@@ -109,15 +109,24 @@
             margin-bottom: 10px;
         }
 
-        .template {
+        .template { 
             border: 1px dashed gray;
             height: 200px;
         }
 
         /*CONTACT*/
-
-        .profile-picture {
-            height: 200px;
+        #profile-picture, #about-me {
+            /*text-align: center;*/
+        }
+        #profile-picture img{
+            height: 350px;
+        }
+        #about-me {
+            margin-top: 20px;
+            font-size: 1.1rem;
+        }
+        #contact-form h3{
+            margin-top: 0px;
         }
 
        
