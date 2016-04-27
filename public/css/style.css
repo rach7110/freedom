@@ -124,7 +124,8 @@
             /*text-align: center;*/
         }
         #profile-picture img{
-            height: 350px;
+            max-height: 350px;
+            max-width: 90%;
         }
         #about-me {
             margin-top: 20px;
