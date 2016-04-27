@@ -37,7 +37,7 @@ Contact Me
             <div class="row">
                 <div class="col-md-12">
                     <div id="about-me">
-                        <p>I'm a Chicago-native that landed in Austin in 2010. Currently making projects for <a href="http://regattanetwork.com" target="_blank">Regatta Network</a>. Formerly an engineer in the renewable energy industry. I gradually made a transition into web development after being submerged in the Silicon Hills. I have a passion for learning new skills, nature, and racing sailboats. When I'm not outdoors, I'm learning to cook and play the fiddle. (But not at the same time.)</p>
+                        <p>I'm a Chicago-native that landed in Austin in 2010. Currently making projects for <a href="http://regattanetwork.com" target="_blank">Regatta Network</a>. Formerly an engineer in the renewable energy industry. I made a transition into web development in 2013 after being submerged in Ausin's Silicon Hills. I have a passion for learning new skills, nature, and racing sailboats. When I'm not outdoors, I'm learning to cook and play the fiddle. (But not at the same time.)</p>
                     </div>
                 </div>
                 </div>
