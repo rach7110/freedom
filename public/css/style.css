@@ -44,6 +44,13 @@
             font-family: "Courier New", Courier;
         }
 
+        .center-block{
+            margin: 0 auto;
+        }
+        .center-inline {
+            text-align: center;
+        }
+
         .navbar{
             background-color: #BDCCDD; /* light blue-purple */
         }
@@ -118,6 +125,15 @@
             border: 1px dashed gray;
             height: 200px;
         }
+
+        /*PROJECTS*/
+        #projects div:first-child {
+            margin-top:25px;
+        }
+        #projects .row {
+            margin-bottom: 20px;
+        }
+
 
         /*CONTACT*/
         #profile-picture, #about-me {
