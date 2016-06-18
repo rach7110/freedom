@@ -27,13 +27,17 @@
             font-size: 1rem;
         }
 
+        label{
+            margin-left: 0.5em;
+        }
+
         .container {
             margin-left: 10px;
-            margin-right: 10px;
+            margin-right: 10px; 
         }
 
         .light-font {
-            font-weight: 100;
+            font-weight: 100;   
         }
 
         .heavy-font, p, li {
@@ -133,6 +137,16 @@
         #projects .row {
             margin-bottom: 20px;
         }
+        #projects a {
+            color: #337ab7;
+            text-decoration: none ;
+        }
+         
+        #projects a:hover {
+            color: black;
+            text-decoration:none;
+            cursor:pointer;
+        }
 
 
         /*CONTACT*/
@@ -149,6 +163,16 @@
         }
         #contact-form h3{
             margin-top: 0px;
+        }
+
+        /*PROJECT-01*/
+        #color-picker {
+            max-width: 95%;
+        }
+
+        #new-student {
+            padding-top:15px;
+            padding-bottom:15px;
         }
 
        

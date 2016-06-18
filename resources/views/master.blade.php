@@ -5,6 +5,8 @@
 <head>
     <!-- JQUERY -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <!-- EXTERNAL SCRIPTS -->
+    <script src="{{ URL::asset('js/script.js') }}"></script>
     <!-- JQUERY FOR BOOTSTRAP -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
     <!-- CSS FOR BOOTSTRAP -->
@@ -74,7 +76,7 @@
     </nav>
 
     <!-- MAIN CONTENT -->
-    <div class="container">
+    <div class="container center-block">
         <!-- FLASH MESSAGES -->
         @if(Session::has('message'))
             <div class="alert alert-info alert-dismissable" role="alert">

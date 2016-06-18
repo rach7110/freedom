@@ -12,11 +12,6 @@ use App\Http\Requests\ContactFormRequest;
 class AboutController extends Controller
 {
 
-	// DISPLAY THE ABOUT PAGE
-	public function create() {
-		return view('contact');
-	}
-
 	// SEND THE CONTACT FORM
     public function store (ContactFormRequest $request) {
 
