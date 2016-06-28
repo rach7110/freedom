@@ -6,6 +6,9 @@
         /*background-color: #3b54ac;  blue*/
         /*background-color: #EBEBEB;  light gray*/
 
+        /*color picker */
+        /*https://color.adobe.com/Color-Idea-1-color-theme-8252341/edit/?copy=true&base=2&rule=Custom&selected=4&name=Copy%20of%20Color%20Idea%201&mode=rgb&rgbvalues=1,0.5910095779290135,0.5391183556410671,0.8104623744411865,0.4879698872699044,0.9098039215686274,0.5882352941176471,0.6784313725490196,1,0.4,0.9098039215686274,0.8134319681127137,0.807843137254902,1,0.7372549019607844&swatchOrder=0,1,2,3,4*/
+
 
    /*     html, body {
             height: 100%;
@@ -168,6 +171,26 @@
         /*PROJECT-01*/
         #color-picker {
             max-width: 95%;
+            width: 840px;
+            height: 420px;
+            border: gray 1px solid;
+        }
+
+        .color-block {
+            display: inline-block;
+            margin: 0px;
+            height: 420px;
+            /*border: gray 1px solid;*/
+        }
+
+        #color-1 {
+            width: 100%;
+            background-color: red;
+        }
+
+        #color-2 {
+            width: 50%;
+            background-color: blue;
         }
 
         #new-student {

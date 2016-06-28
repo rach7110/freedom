@@ -16,11 +16,11 @@ Colors
 <!-- BODY -->
 <div id="colors">
     <!--BANNER IMAGE -->
-    <div class="row">
-        <div class="col-md-12 font-1 center-inline">
-            <img id="color-picker" src="http://placehold.it/450x330">
+    <!-- <div class="row"> -->
+        <div id="color-picker" class="center-block">           
+            <div id="color-2" class="color-block"></div><div id="color-2" class="color-block"></div>
         </div>
-    </div>
+    <!-- </div> -->
 
     <!-- INSTRUCTIONS -->
     <div class="center-inline">
