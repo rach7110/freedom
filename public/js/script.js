@@ -10,10 +10,10 @@ $(document).ready(function() {
 
     // SHOW THE STUDENTS WHOSE FAVORITE COLOR IS CHECKED:
     function show_students() {
-        $('.student-colors').hide();
+        $('.student').hide();
 
         $('input:checked').each(function() {
             var color = $(this).val();
-            $('.student-colors.' + color ).show();
+            $('.student.' + color ).show();
         });
     } 

@@ -82,7 +82,7 @@ Colors
 
         <tbody>
             @foreach ($students as $student)
-                <tr class="student-colors {{ strtolower($student->favorite_color) }}">
+                <tr class="student {{ strtolower($student->favorite_color) }}">
                     <td>{{ ucfirst($student->first_name) }}</td>
                     <td>{{ ucfirst($student->last_name) }}</td>
                     <td>{{ ucfirst($student->favorite_color) }}</td>
