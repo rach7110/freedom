@@ -27,7 +27,7 @@ Colors
         <h3><span style="font-weight: 900;">Instructions:</span><span style="font-weight: 200;"> choose colors to see students' favorite colors.<span></h3>
     </div>
 
-    <!-- COLORS: -->
+    <!-- COLOR CHECKBOXES: -->
     <div class="row">
         <div id="red" class="col-md-2 col-md-offset-2 col-xs-offset-1 display_color">
             <input type="checkbox" checked="checked" id="red-checkbox" value="red">
@@ -46,8 +46,6 @@ Colors
             <label for="green-checkbox">Green</label>
         </div>
     </div>
-
-
     <div class="row">
         <div class="col-md-2 col-md-offset-2 col-xs-offset-1">
             <input type="checkbox" checked="checked" id="blue-checkbox" value="blue">
@@ -67,12 +65,12 @@ Colors
         </div>
     </div>
 
-    <!-- ADD A STUDENT (TRIGGERS MODAL WINDOW): -->
+    <!-- ADD A STUDENT BUTTON (TRIGGERS MODAL WINDOW): -->
     <div id="new-student" class="center-inline">
         <button class="btn btn-primary" data-toggle="modal" data-target="#newStudentModal" >+ Student</button>
-
     </div>
 
+    <!-- LIST STUDENTS -->
     <table class="table table-hover">
         <thead>
             <th>First</th>
@@ -145,6 +143,7 @@ Colors
                 </div>
             </div>
         </div>
+        <!-- END MODAL WINDOW -->
 <!-- ************************************* -->
 
 
