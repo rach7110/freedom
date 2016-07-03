@@ -23,7 +23,7 @@ Colors
         <h3><span style="font-weight: 900;">Instructions:</span><span style="font-weight: 200;"> choose colors to see students' favorite colors.<span></h3>
     </div>
 
-    <!-- COLOR CHECKBOXES: -->
+    <!--CHECKBOXES FOR COLORS: -->
     <div id="color-checkboxes">
         <div class="row">
             <div class="col-md-2 col-md-offset-2 col-xs-offset-1">

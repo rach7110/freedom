@@ -19,7 +19,12 @@ function make_columns() {
 
     var count_colors = $('#color-checkboxes input:checked').length;
     $('#color-checkboxes input:checked').each(function(){
-        $('#color-swatch').append('<div id="color-' + count_colors + '-column" class="color-block">');
+        var color = $(this).val();
+        var column = $('<div id="color-' + count_colors + '-column" class="color-block">');
+        
+        $('#color-swatch').append(column);
+        $(column).css('background-color', color);
+
     });
 }
 
@@ -29,6 +34,7 @@ function show_students() {
 
     $('input:checked').each(function() {
         var color = $(this).val();
+        console.log(color);
         $('.student.' + color ).show();
     });
 } 

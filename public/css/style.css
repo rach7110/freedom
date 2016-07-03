@@ -174,7 +174,7 @@
         #color-swatch {
             max-width: 95%;
             width: 840px;
-            height: 420px;
+            height: 422px;
             border: gray 1px solid;
         }
 
@@ -182,41 +182,40 @@
             display: inline-block;
             margin: 0px;
             height: 420px;
-            border: gray 1px solid;
         }
 
         #color-1-column {
             width: 100%;
-            background-color: red;
+            /*background-color: red;*/
         }
         #color-2-column {
             width: 50%;
-            background-color: blue;
+            /*background-color: blue;*/
         }
         #color-3-column {
             width: 33%;
-            background-color: blue;
+            /*background-color: blue;*/
         }
         #color-4-column {
             width: 25%;
-            background-color: blue;
+            /*background-color: blue;*/
         }
         #color-5-column {
             width: 20%;
-            background-color: blue;
+            /*background-color: blue;*/
         }
         #color-6-column {
             width: 16.6667%;
-            background-color: blue;
+            /*background-color: blue;*/
         }
         #color-7-column {
             width: 14.286%;
-            background-color: blue;
+            /*background-color: blue;*/
         }
 
         #color-8-column {
             width: 12.5%;
-            background-color: blue;
+            /*background-color: blue;*/
         }
 
         #new-student {
