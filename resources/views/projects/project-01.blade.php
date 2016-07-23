@@ -1,19 +1,15 @@
 @extends('master')
 
+<!-- HEADER -->
 @section('title')
-Colors
+Favorite Colors
 @stop
 
-@section('content')
-
- <!-- HEADER -->
-<div class="row">
-    <div class="col-md-12 font-1">
-        <h1>Colors</h1>
-    </div>
-</div>
+@section('title_description')
+@stop
 
 <!-- BODY -->
+@section('content')
 <div id="colors">
     <!--BANNER IMAGE -->
     <div class="row">
@@ -86,7 +82,7 @@ Colors
                     <td>{{ ucfirst($student->first_name) }}</td>
                     <td>{{ ucfirst($student->last_name) }}</td>
                     <td>{{ ucfirst($student->favorite_color) }}</td>
-                </tr>                
+                </tr>
 
             @endforeach
         </tbody>
@@ -109,7 +105,7 @@ Colors
                                 <div class="form-group">
                                     <label for="first">First Name: </label>
                                     <input required type="text" id="first" class="form-control" name="first_name" placeholder="Anne">
-                                </div>     
+                                </div>
                                 <div class="form-group">
                                     <label for="last">Last Name: </label>
                                     <input required type="text" id="last" class="form-control" name="last_name" placeholder="Riefenstahl">
@@ -127,7 +123,7 @@ Colors
                                         <option value="black">Black</option>
                                         <option value="white">White</option>
                                     </select>
-                                </div>                    
+                                </div>
 
                                 </div>
                         </div>

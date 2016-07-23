@@ -1,22 +1,18 @@
 @extends('master')
 
+<!-- HEADER -->
 @section('title')
 Projects
 @stop
 
-@section('content')
- 
- <!-- HEADER -->
-<div class="row">
-    <div class="col-md-12 font-1">
-        <h1>Check out my work!  </h1>
-        <h3>(we'll get there...)</h3>
-    </div>
-</div>
+@section('title_description')
+(we'll get there...)
+@stop
 
 <!-- BODY -->
+@section('content')
 <div id="projects">
-    
+
     <!-- PROJECT-01 -->
     <a href="{{ route('project-01') }}">
     <div class="row">

@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 
 <html>
@@ -77,23 +78,30 @@
 
     <!-- MAIN CONTENT -->
     <div class="container center-block">
-        <!-- FLASH MESSAGES -->
-        @if(Session::has('message'))
-            <div class="alert alert-info alert-dismissable" role="alert">
-                <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-              {{Session::get('message')}}
-            </div>
-        @endif
+      <!-- HEADER -->
+      <div class="row">
+         <div class="col-md-12 font-1">
+             <h1>
+               @yield('title')
+             </h1>
+             <h3>
+               @yield('title_description')
+             </h3>
+         </div>
+       </div>
+       <!-- FLASH MESSAGES -->
+       @if(Session::has('message'))
+       <div class="alert alert-info alert-dismissable" role="alert">
+         <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+         {{Session::get('message')}}
+       </div>
+       @endif
 
         @yield('content')
-
     </div>
 
-    <div id="footer">
-
-    </div>
+    <div id="footer"></div>
 
 </body>
-
 
 </html>
