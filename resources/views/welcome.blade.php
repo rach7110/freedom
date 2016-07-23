@@ -1,9 +1,8 @@
 @extends('master')
 
-@section('title')
-Rachel's Portfolio
-@stop
-
+<head>
+  <title>Rachel's Portfolio</title>
+</head>
 
 @section('content')
             <div class="row" id="banner">
@@ -19,22 +18,3 @@ Rachel's Portfolio
             	<p>I write code for the web using HTML, CSS, PHP, Laravel (a framework for PHP), JavaScript, and JQuery. I develop projects on Mac, Windows, and Linux operating systems. I'm continuously improving my developer and design skills. I'm active in the Austin tech community, and you can often find me at Women Who Code during the evenings.</p>
             </div>
 @stop
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

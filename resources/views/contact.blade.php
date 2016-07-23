@@ -1,20 +1,18 @@
 @extends('master')
 
+<!-- HEADER -->
 @section('title')
-Contact Me
+Contact
+@stop
+
+@section('title_description')
 @stop
 
 @section('content')
-
 <!-- CONTACT FORM ERROR MESSAGES -->
 <ul>
-
+<!-- TODO -->
 </ul>
-<div class="row">
-    <div class="col-md-12 font-1">
-        <h1>About Me</h1>
-    </div>
-</div>
 
 <div id="contact">
     <div class="row">
@@ -75,7 +73,5 @@ Contact Me
     </div>
 </div>
 
- 
+
 @stop
-
-
