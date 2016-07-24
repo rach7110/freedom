@@ -1,12 +1,14 @@
 @extends('master')
 
+<!-- HEADER -->
 @section('title')
 Resume
 @stop
 
+@section('title_description')
+@stop
+
 @section('content')
- 
-<h1 class="font-1"> Resume</h1>
 <hr>
 <h3>OBJECTIVE & SUMMARY</h3>
 <hr>
