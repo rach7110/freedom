@@ -26,7 +26,6 @@ Projects
 
           <div class="project-description">
             <p>A single page app that demonstates interactive styling. It uses a homemade CSS grid to vary column widths in the color swatch. It uses JQuery to assign CSS styling and property values in order to display matching colors and students. It also uses MVC architecture so users can view and add new students to the database.  And it uses HTML form validation.</p>
-
             <p><span class="tools">Tools &  Techniques:</span>JQuery, CSS Grid, MVC Framework, Database Queries, HTML Form Validation</p>
         </div>
         </div>
