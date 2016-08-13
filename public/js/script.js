@@ -33,7 +33,7 @@ $(document).ready(function() {
 
     $('#confirm').hover(mouseIn, mouseOut)
 
-    //HIDE NOTIFICATION WHEN USER CLICKS 'OKAY'
+    //HIDE NOTIFICATION WHEN USER CLICKS 'OKAY' AND CREATE COOKIE
     $('#cookies #confirm').click(function () {
         $('#cookies').hide();
         createCookie('inform_about_cookie_use', true, 365);
