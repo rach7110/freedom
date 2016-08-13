@@ -36,11 +36,11 @@
 
         .container {
             margin-left: 10px;
-            margin-right: 10px; 
+            margin-right: 10px;
         }
 
         .light-font {
-            font-weight: 100;   
+            font-weight: 100;
         }
 
         .heavy-font, p, li {
@@ -68,7 +68,7 @@
         }
 
         .navbar-right {
-            font-size: 1.2em;   
+            font-size: 1.2em;
         }
 
         .menu.pinata {
@@ -128,12 +128,20 @@
             margin-bottom: 10px;
         }
 
-        .template { 
+        .template {
             border: 1px dashed gray;
             height: 200px;
         }
 
         /*PROJECTS*/
+        .project-description p{
+            font-size: 1.1em;
+        }
+
+        .project-description .tools {
+          margin-right: 10px
+        }
+
         #projects div:first-child {
             margin-top:25px;
         }
@@ -144,7 +152,7 @@
             color: #337ab7;
             text-decoration: none ;
         }
-         
+
         #projects a:hover {
             color: black;
             text-decoration:none;
@@ -218,9 +226,11 @@
             /*background-color: blue;*/
         }
 
-        #new-student {
-            padding-top:15px;
-            padding-bottom:15px;
+        #color-checkboxes {
+          margin-top: 20px;
         }
 
-       
+        #new-student {
+            padding-top:25px;
+            padding-bottom:25px;
+        }
