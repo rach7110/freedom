@@ -260,7 +260,7 @@
 .col-4-6 { width: 66.67%;}
 .offset-1-6 {margin-left:16.67%;}
 
-.notification img { margin-left: 16px; margin-right: 10px; margin-bottom: 6px; width: 18px; }
+.notification img { margin-left: 16px; margin-right: 10px; margin-top: -6px; width: 18px; }
 .notification h4 { display: inline-block; text-align: left; }
 .notification a { text-decoration: none;}
 .notification a {color: #e29d32 ;}
