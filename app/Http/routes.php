@@ -24,7 +24,7 @@ Route::get('projects', ['as' => 'projects', function () {
 }]);
 
 Route::get('contact', ['as' => 'about', function () {
-    return view('contact');	
+    return view('contact');
 }]);
 // SEND ME AN EMAIL FROMT THE CONTACT FORM
 Route::post('contact', ['as' => 'message', 'uses' => 'AboutController@store']);
@@ -36,6 +36,12 @@ Route::post('contact', ['as' => 'message', 'uses' => 'AboutController@store']);
 // PROJECT 01
 Route::get('project-01', ['as' => 'project-01', 'uses' => 'StudentController@index']);
 Route::post('project-01', ['as' => 'new_student', 'uses' => 'StudentController@save']);
+
+//PROJECT 02
+Route::get('project-02', ['as' => 'project-02',  function() {
+  return view('projects.project-02');
+}]);
+
 
 /*
 |--------------------------------------------------------------------------

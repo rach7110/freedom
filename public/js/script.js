@@ -1,5 +1,7 @@
 $(document).ready(function() {
-
+  /***************************************/
+  // PROJECT-01:
+  /***************************************/
     // COUNT THE CHECKBOXES AND MAKE EQUAL NUMBER OF COLUMNS
     make_columns();
 
@@ -10,9 +12,38 @@ $(document).ready(function() {
         make_columns();
         show_students();
     });
+    /***************************************/
+    // PROJECT-02
+    /***************************************/
+    //if this cookie is set, don't show the cookies notification div'
+    if(!readCookie('inform_about_cookie_use')) {
+        $('#cookies').show();
+    }
+
+    // ANIMATE COOKIE NOTIFICATION WHEN USER HOVERS OVER IT:
+    var confirm_image = $('#confirm img');
+
+    function mouseIn(bigWidth) {
+        $(confirm_image).css('width', '22px');
+        $('#confirm').css('cursor', 'pointer');
+    }
+    function mouseOut(smallWidth) {
+        $(confirm_image).css('width', '18px');
+    }
+
+    $('#confirm').hover(mouseIn, mouseOut)
+
+    //HIDE NOTIFICATION WHEN USER CLICKS 'OKAY'
+    $('#cookies #confirm').click(function () {
+        $('#cookies').hide();
+        createCookie('inform_about_cookie_use', true, 365);
+    });
 
 });
 
+/***************************************/
+// PROJECT-01:
+/***************************************/
 // VARY COLUMN WIDTHS AND COLORS IN BANNER IMAGE:
 function make_columns() {
     $('#color-swatch').empty();  //remove existing columns first
@@ -40,4 +71,33 @@ function show_students() {
         console.log(color);
         $('.student.' + color ).show();
     });
+}
+
+/***************************************/
+// PROJECT-02
+/***************************************/
+//CREATE, READ, & DELETE COOKIES:
+function createCookie(name,value,days) {
+    if (days) {
+        var date = new Date();
+        date.setTime(date.getTime()+(days*24*60*60*1000));
+        var expires = "; expires="+date.toGMTString();
+    }
+    else var expires = "";
+    document.cookie = name+"="+value+expires+"; path=/";
+}
+
+function readCookie(name) {
+    var nameEQ = name + "=";
+    var ca = document.cookie.split(';');
+    for(var i=0;i < ca.length;i++) {
+        var c = ca[i];
+        while (c.charAt(0)==' ') c = c.substring(1,c.length);
+        if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length,c.length);
+    }
+    return null;
+}
+
+function eraseCookie(name) {
+    createCookie(name,"",-1);
 }
