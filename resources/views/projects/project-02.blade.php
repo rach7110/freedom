@@ -12,7 +12,7 @@ Notification Bar
 @section('content')
 
 <!--WINDOW FOR MOCK WEBSITE HOMEPAGE:  -->
-<div class="center-block" style="width: 90%; height: 400px; border: black 1px solid;">
+<div class="center-block" style="width: 90%; border: black 1px solid;">
   <!-- NOTIFICAITON BAR -->
   <div id="cookies" class="notification">
       <div class="column col-4-6 offset-1-6 center-inline">
@@ -23,6 +23,18 @@ Notification Bar
           <p>Okay</p>
       </div>
   </div>
+<!--FAKE COMPANY HEADER -->
+  <div>
+
+  </div>
+  <!--FAKE COMPANY BODY -->
+  <div id="fake-content" class="center-inline">
+    <div id="fake-name" >
+      <h1>TravelExplore.to</h1>
+    </div>
+    <!-- <p>Let's Begin</p> -->
+  </div>
+
 </div>
 
 <div id="reset-cookie" class="center-inline">
@@ -41,7 +53,7 @@ Notification Bar
 
                         <div class="modal-body">
                             <div class="content">
-                              <p>Our site uses cookies to keep track of your registration activity. We use cookies for other purposes including:  the tracking of a unique number to identify your information to our system for the purpose of pre-populating your information for future registrations; and an alpha/numeric registration token used to allow you to return to the entry form to edit or add to your registration.</p>
+                              <p>Our site uses cookies to keep track of your activity. We use cookies for purposes including:  the tracking of a unique number to identify your information to our system for the purpose of pre-populating your information for future forms; and an alpha/numeric token used to allow you to return to the form to edit it.</p>
                               <p>By using this website, you agree to our use of cookies. If you do not wish to accept our cookie use policy, you must stop using our website and disable cookies in your browser settings. Please note that by disabling cookies, you will affect the functionality of our website. Learn how to enable browser cookies: <a href="http://www.wikihow.com/Enable-Cookies-in-Your-Internet-Web-Browser" target="_blank">Cookie Settings</a></p>
                             </div>
                         </div>

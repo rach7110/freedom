@@ -244,11 +244,6 @@
 .col-1-8 { width: 12.5%;}
 .col-4-6 { width: 66.67%;}
 .offset-1-6 {margin-left:16.67%;}
-@media (max-width: 990px) {
-  .col-1-8 { width: 100%; }
-}
-
-
 .notification { background-color: black; color:white; padding: 1px 0; margin: 0 auto; }
 .notification:after { content: ""; display: table; clear: both; }
 .notification img { margin-left: 16px; margin-right: 10px; margin-top: -6px; width: 18px; }
@@ -260,3 +255,22 @@
 #cookies {display: none;}
 #reset-cookie { margin-top: 10px; font-size: 1.2em; }
 #reset-cookie a { color: blue; }
+@media (max-width: 990px) {
+  .col-1-8 { width: 100%; }
+}
+#fake-content { height: 350px;}
+#fake-content {
+  /*background-image: url('../images/rio-1024-400.jpg');*/
+  background: url('../images/rio.jpg') no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: white;
+}
+#fake-name h1{
+  margin: 0px 0px ;
+  padding-top: 100px;
+  font-family: Futura;
+  font-size: 3em;
+}
