@@ -239,39 +239,24 @@
 /***************************************/
         /*PROJECT-02*/
 /***************************************/
-.tab {
-    margin-left: 15px;
-}
-
-/*NOTIFICATIONS: */
-.notification {
-    background-color: black;
-    color:white;
-    padding: 1px 0;
-    margin: 0 auto;
-}
-.notification:after {
-    content: "";
-    display: table;
-    clear: both;
-}
+.tab { margin-left: 15px;}
 .column {float: left;}
 .col-1-8 { width: 12.5%;}
 .col-4-6 { width: 66.67%;}
 .offset-1-6 {margin-left:16.67%;}
+@media (max-width: 990px) {
+  .col-1-8 { width: 100%; }
+}
 
+
+.notification { background-color: black; color:white; padding: 1px 0; margin: 0 auto; }
+.notification:after { content: ""; display: table; clear: both; }
 .notification img { margin-left: 16px; margin-right: 10px; margin-top: -6px; width: 18px; }
-.notification h4 { display: inline-block; text-align: left; }
+.notification p { display: inline-block; margin-top: 5px; }
 .notification a { text-decoration: none;}
 .notification a {color: #e29d32 ;}
 .notification a:hover {color: #00a2ed;}
-#confirm {color: #e29d32 ;}
+#confirm {color: #e29d32; min-width: 90px;}
 #cookies {display: none;}
-
-#reset-cookie {
-  margin-top: 10px;
-  font-size: 1.2em;
-}
-#reset-cookie a {
-  color: blue;
-}
+#reset-cookie { margin-top: 10px; font-size: 1.2em; }
+#reset-cookie a { color: blue; }

@@ -15,12 +15,12 @@ Notification Bar
 <div class="center-block" style="width: 90%; height: 400px; border: black 1px solid;">
   <!-- NOTIFICAITON BAR -->
   <div id="cookies" class="notification">
-      <div class="column col-4-6 offset-1-6">
-          <h4>This website uses cookies to give you the best experience possible.<a  data-toggle="modal" data-target="#cookiesPolicy" class="tab" href="/html/privacy.html" target="_blank">Find out more</a></h4>
+      <div class="column col-4-6 offset-1-6 center-inline">
+          <p>This website uses cookies to give you the best experience possible.<a  data-toggle="modal" data-target="#cookiesPolicy" class="tab" href="/html/privacy.html" target="_blank">Find out more</a></p>
       </div>
-      <div id="confirm" class="column col-1-8">
+      <div id="confirm" class="column col-1-8 center-inline">
           <img src="images/checked-orange-24-24.png">
-          <h4>Okay</h4>
+          <p>Okay</p>
       </div>
   </div>
 </div>
