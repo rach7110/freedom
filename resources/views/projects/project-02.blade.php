@@ -12,9 +12,7 @@ Notification Bar
 @section('content')
 
 <!--WINDOW FOR MOCK WEBSITE HOMEPAGE:  -->
-<div class="center-block" style="width: 90%; height: 700px; border: black 1px solid;">
-  <!-- HEADER -->
-  <div></div>
+<div class="center-block" style="width: 90%; height: 400px; border: black 1px solid;">
   <!-- NOTIFICAITON BAR -->
   <div id="cookies" class="notification">
       <div class="column col-4-6 offset-1-6">
@@ -25,11 +23,12 @@ Notification Bar
           <h4>Okay</h4>
       </div>
   </div>
-
-  <!-- BODY -->
-  <div></div>
-
 </div>
+
+<div id="reset-cookie" class="center-inline">
+  <a href="">Reset</a>
+</div>
+
 <!-- ************************************* -->
         <!-- MODAL WINDOW-->
         <div class="modal fade" id="cookiesPolicy" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" >

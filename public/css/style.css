@@ -267,3 +267,11 @@
 .notification a:hover {color: #00a2ed;}
 #confirm {color: #e29d32 ;}
 #cookies {display: none;}
+
+#reset-cookie {
+  margin-top: 10px;
+  font-size: 1.2em;
+}
+#reset-cookie a {
+  color: blue;
+}

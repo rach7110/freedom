@@ -16,10 +16,10 @@ $(document).ready(function() {
     // PROJECT-02
     /***************************************/
     //if this cookie is set, don't show the cookies notification div'
-    if(!readCookie('inform_about_cookie_use')) {
+    if(readCookie('inform_about_cookie_use') == null) {
         $('#cookies').show();
     }
-    console.log(readCookie('inform_about_cookie_use'));
+    // console.log(readCookie('inform_about_cookie_use'));
 
     // ANIMATE COOKIE NOTIFICATION WHEN USER HOVERS OVER IT:
     var confirm_image = $('#confirm img');
@@ -38,6 +38,13 @@ $(document).ready(function() {
     $('#cookies #confirm').click(function () {
         $('#cookies').hide();
         createCookie('inform_about_cookie_use', true, 365);
+    });
+
+    //DELTE COOKIE WHEN USER CLICKS 'RESET'
+    $('#reset-cookie a').click(function() {
+      event.preventDefault();
+      eraseCookie('inform_about_cookie_use');
+      location.reload(true);
     });
 
 });
