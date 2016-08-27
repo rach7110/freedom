@@ -19,6 +19,7 @@ $(document).ready(function() {
     if(!readCookie('inform_about_cookie_use')) {
         $('#cookies').show();
     }
+    console.log(readCookie('inform_about_cookie_use'));
 
     // ANIMATE COOKIE NOTIFICATION WHEN USER HOVERS OVER IT:
     var confirm_image = $('#confirm img');
