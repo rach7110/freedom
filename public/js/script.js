@@ -16,10 +16,10 @@ $(document).ready(function() {
     // PROJECT-02
     /***************************************/
     //if this cookie is set, don't show the cookies notification div'
-    if(readCookie('inform_about_cookie_use') == null) {
-        $('#cookies').show();
+    if(readCookie('inform_about_cookie_use')) {
+        $('#cookies').hide();
     }
-    // console.log(readCookie('inform_about_cookie_use'));
+    console.log(readCookie('inform_about_cookie_use'));
 
     // ANIMATE COOKIE NOTIFICATION WHEN USER HOVERS OVER IT:
     var confirm_image = $('#confirm img');
