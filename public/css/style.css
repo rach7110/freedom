@@ -155,7 +155,7 @@
   #projects .row {
       margin-bottom: 20px;
   }
-  
+
   #projects a {
       color: #337ab7;
       text-decoration: none ;
@@ -166,6 +166,11 @@
       text-decoration:none;
       cursor:pointer;
   }
+
+  .btn.nohover:hover{
+    cursor:default !important;
+    background-color: white;
+}
 
 
   /*CONTACT*/
