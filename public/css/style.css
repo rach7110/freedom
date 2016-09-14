@@ -135,19 +135,27 @@
 
   /*PROJECTS*/
   .project-description p{
-      font-size: 1.1em;
+      font-size: 1rem;
   }
 
-  .project-description .tools {
-    margin-right: 10px
+  .project-description .tools-header {
+    margin-right: 10px;
+    font-size: 1.1rem;
+  }
+
+  .project-description .instruction {
+    font-size: 0.8rem;
+    margin-top: -10px;
   }
 
   #projects div:first-child {
       margin-top:25px;
   }
+
   #projects .row {
       margin-bottom: 20px;
   }
+  
   #projects a {
       color: #337ab7;
       text-decoration: none ;
