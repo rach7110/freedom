@@ -265,7 +265,7 @@
 .notification a {color: #e29d32 ;}
 .notification a:hover {color: #00a2ed;}
 #confirm {color: #e29d32; min-width: 90px;}
-#reset-cookie { margin-top: 10px; font-size: 1.2em; }
+#reset-cookie, #refresh-page { margin-top: 10px;}
 #reset-cookie a { color: blue; }
 @media (max-width: 990px) {
   .col-1-8 { width: 100%; }

@@ -41,7 +41,7 @@ $(document).ready(function() {
     });
 
     //DELTE COOKIE WHEN USER CLICKS 'RESET'
-    $('#reset-cookie a').click(function() {
+    $('#reset-cookie').click(function() {
       event.preventDefault();
       eraseCookie('inform_about_cookie_use');
       location.reload(true);

@@ -38,8 +38,13 @@ Notification Bar
 </div>
 
 <div id="reset-cookie" class="center-inline">
-  <a href="">Reset</a>
+  <button type="button" class="btn btn-default"><a href="">Reset Cookie</a></button>
 </div>
+
+<div id="refresh-page" class="center-inline">
+  <a href="">Page Refresh</a>
+</div>
+
 
 <!-- ************************************* -->
         <!-- MODAL WINDOW-->
