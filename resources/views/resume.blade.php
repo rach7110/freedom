@@ -13,16 +13,17 @@ Resume
 <h3>OBJECTIVE & SUMMARY</h3>
 <hr>
 <h4>
-    A problem‐solver and self‐starter with communication and business skills. Experience working in Web Development, Sales, Project Engineering, and Manufacturing Quality Assurance roles. Passionate about entrepreneurship and programming. Seeking a company that challenges me wile supporting my skill growth.
+    A problem‐solver who prioritizes the needs of the business while always thinking of the end users. Experience working in Web Development, Sales, Project Engineering, and Manufacturing Quality Assurance roles. Passionate about entrepreneurship, technology, and quality. Seeking a company that challenges me wile supporting my skill growth.
 </h4>
 
 <hr>
-<h3>COMPUTER SKILLS</h3>
+<h3>COMPUTER TECHNOLOGIES</h3>
 <hr>
 <div class="row">
     <div class="col-md-4">
         <ul>
-            <li>PHP, Ruby</li>
+            <li>PHP</li>
+            <li>Ruby (basic)</li>
             <li>Laravel</li>
             <li>JavaScript</li>
             <li>JQuery</li>
@@ -69,7 +70,7 @@ Resume
 
 <div class="job-description">
     <ul>
-        <li>Modify company's existing legacy product written in PHP</li>
+        <li>Modify company's legacy product written in PHP</li>
         <li>Use Laravel, an MVC framework for PHP,  to build out a new web application</li>
         <li>Design and code new features using PHP, HTML, CSS, JavaScript and jQuery</li>
         <li>Use Git for version control</li>
