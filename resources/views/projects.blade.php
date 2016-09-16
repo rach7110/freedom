@@ -24,7 +24,7 @@ Projects
         <div class="col-md-8">
           <a href="{{ route('project-01') }}" target="_blank"><h3>Favorite Colors</h3></a>
           <div class="project-description">
-            <p>Demonstates interactive styling. Uses a homemade CSS grid to vary column widths in the color swatch. Uses JQuery to assign CSS styling and property values and display matching colors and students. Also uses MVC architecture so users can view and add new students to the database. And uses HTML form validation.</p>
+            <p>This page demonstrates interactive styling. It uses a homemade CSS grid to vary column widths in the color swatch. It uses JQuery to assign CSS styling and property values and display matching colors and students. It also uses MVC architecture so users can view and add new students to the database. And it uses HTML form validation.</p>
             <!-- CODE BASE-->
             <p class="tools-header">Tools & Concepts:</p>
             <div class="btn-group" role="group" aria-label="...">
@@ -50,7 +50,7 @@ Projects
         <div class="col-md-8">
             <a href="{{ route('project-02') }}" target="_blank"><h3>Notification Bar</h3></a>
             <div class="project-description">
-              <p>In order to abide by EU law, a company needs to notify its users about cookies. This site uses CSS to style the notificaiton bar. It uses JQuery to animate the notification bar and to set a browser cookie when the user clicks it. If a broswer cookie is present the next time the page is visited, then the notification bar will no longer display.</p>
+              <p>In order to abide by EU law, a company needs to notify its users about cookies. This site uses CSS to style the notification bar. It uses JQuery to animate the notification bar and to set a browser cookie when the user clicks it. If a browser cookie is present the next time the page is visited, then the notification bar will no longer display.</p>
               <!-- CODE BASE-->
               <p class="tools-header">Tools & Concepts:</p>
               <div class="btn-group" role="group" aria-label="...">

@@ -133,16 +133,17 @@ Resume
 
 <div class="job-description">
     <ul>
-        <li>Led vendor evaluation strategy for business partnership, including authoring and reviewing request for proposals, conducting site visits, interviewing key personal and negotiating contract terms with vendors</li>
-        <li>Maintained database of wind anemometer readings for over 200 sites</li>
+        <li>Led vendor evaluation strategy for business partnership that resulted in a long-term contract for repair
+            of assets valued at $10MM</li>
         <li>Managed third party vendor reports</li>
+        <li>Maintained database of wind anemometer readings for over 200 sites</li>
         <li>Compiled, validated, and interpolated raw data for software inputs (over 250,000 rows)</li>
         <li>Utilized purchased software to calculate energy production of wind farms for financial inputs</li>
-        <li>Oversaw monthly operation reports to inform management on Asset performance</li>
+        <li>Oversaw monthly operation reports to inform Management and outside Lenders on asset performance and
+            reliability</li>
         <li>Initiated failure tracking metrics to bridge Corporate Engineering and operational sites</li>
-        <li>Reported asset failure statistics to Management and outside Lenders</li>
-        <li>Company representative for Reliability Collaborative within the US National Renewable Energy Lab (NREL)</li>
-        <li>Helped manage engineering department by creating internal project databases, documenting work instructions, and training new Engineers</li>
+        <li>Company representative for a Collaborative with the US National Renewable Energy Lab (NREL)</li>
+        <li>Helped structure a growing engineering department by creating internal project databases, documenting work instructions, and training new Engineers</li>
 
     </ul>
 </div>
@@ -304,8 +305,8 @@ Resume
 <div class="row">
     <p class="education-title">Membership & Volunteering</p>
     <ul>
-        <li>Member, Sierra Club Austin Chapter, 2011- 2014
         <li>Volunteer Instructor, Austin Yacht Club Women’s Sailing Clinic, 2012 - Present</li>
+        <li>Member, Sierra Club Austin Chapter, 2011- 2014
         <li>Volunteer, Austin Rails Girls 2013</li>
         <li>Volunteer, RISE Week 2011</li>
         <li>Volunteer, GirlStart: Girls in STEM Conference 2011</li>
