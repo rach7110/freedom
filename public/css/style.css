@@ -43,7 +43,7 @@
       font-weight: 100;
   }
 
-  .heavy-font, p, li {
+  .heavy-font, p, li,td  {
       font-weight: 300;
   }
 
