@@ -43,7 +43,7 @@
       font-weight: 200;
   }
 
-  .medium-font-weight, p, li,td  {
+  .medium-font-weight, p, li, td, label {
       font-weight: 300;
   }
 
