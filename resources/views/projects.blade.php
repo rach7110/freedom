@@ -12,6 +12,9 @@ Projects
 @section('content')
 <div id="projects">
 
+  <!-- SCROLL TOP BUTTON -->
+  <button class="btn scroll-top"><img src='images/up-arrow-white-36x36.png'></button>
+
     <!-- PROJECT-01 -->
     <div class="row">
         <!-- PROJECT IMAGE -->

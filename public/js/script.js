@@ -1,4 +1,21 @@
 $(document).ready(function() {
+// SCROLL TO TOP BUTTON:
+
+  $(window).scroll(function() {
+      if ($(this).scrollTop()) {
+          $('.scroll-top').fadeIn();
+      } else {
+          $('.scroll-top').fadeOut();
+      }
+  });
+
+  $(".scroll-top").click(function() {
+    $("html, body").animate({scrollTop: 0}, 1000);
+  });
+
+
+
+
   /***************************************/
   // PROJECT-01:
   /***************************************/

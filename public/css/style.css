@@ -193,6 +193,28 @@
       margin-top: 0px;
   }
 
+  /*SCROLL TOP*/
+  .scroll-top {
+    width: 40px;
+    height: 40px;
+    padding: 5px 3px;
+    color: #fff;
+    position: fixed;
+    bottom: 20px;
+    right: 10px;
+    display: none;
+    background: #BDCCDD;
+    background-repeat: no-repeat;
+    margin: auto;
+
+  }
+
+  @media and (max-wdith:400px) {
+    .scroll-top { width: 25px; height: 25px;}
+    .scroll-top img { background-size: 24px;}
+    }
+  }
+
 /***************************************/
   /*PROJECT-01*/
 /***************************************/
