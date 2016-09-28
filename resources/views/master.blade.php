@@ -44,7 +44,7 @@
                     <span class="icon-bar"></span> -->
                 </button>
                 <!-- PERSONAL NAME/BRAND -->
-                <a class="navbar-brand heavy-font" id="navbar-name" href="{{ route('welcome' )}}">Rachel Loziuk</a>
+                <a class="navbar-brand medium-font-weight" id="navbar-name" href="{{ route('welcome' )}}">Rachel Loziuk</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->

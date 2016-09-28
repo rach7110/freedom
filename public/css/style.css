@@ -39,12 +39,16 @@
       margin-right: 10px;
   }
 
-  .light-font {
-      font-weight: 100;
+  .light-font-weight {
+      font-weight: 200;
   }
 
-  .heavy-font, p, li,td  {
+  .medium-font-weight, p, li,td  {
       font-weight: 300;
+  }
+
+  .heavy-font-weight {
+      font-weight: 900;
   }
 
   .font-1 {

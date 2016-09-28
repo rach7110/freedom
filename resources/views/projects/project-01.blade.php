@@ -16,7 +16,7 @@ Favorite Colors
 
     <!-- INSTRUCTIONS -->
     <div class="center-inline">
-        <h3><span style="font-weight: 900;">Filter:</span><span style="font-weight: 200;"> search by students' favorite colors.<span></h3>
+        <h3 class="heavy-font-weight">Filter:</span><span class="light-font-weight"> search by students' favorite colors.<span></h3>
     </div>
 
     <!--CHECKBOXES FOR COLORS: -->
