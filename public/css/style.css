@@ -1,18 +1,13 @@
- /*background-color: #c2dde5; light blue*/
-        /*background-color: #bcc8db;  light purple*/
-        /*background-color: #BDCCDD;  light blue-purple */
 
-        /*background-color: #e76630;  orange*/
-        /*background-color: #3b54ac;  blue*/
-        /*background-color: #EBEBEB;  light gray*/
+/*COLOR THEMES:*/
+/* #c2dde5; light blue*/
+/* #bcc8db;  light purple*/
+/* #BDCCDD;  light blue-purple */
 
-        /*color picker */
-        /*https://color.adobe.com/Color-Idea-1-color-theme-8252341/edit/?copy=true&base=2&rule=Custom&selected=4&name=Copy%20of%20Color%20Idea%201&mode=rgb&rgbvalues=1,0.5910095779290135,0.5391183556410671,0.8104623744411865,0.4879698872699044,0.9098039215686274,0.5882352941176471,0.6784313725490196,1,0.4,0.9098039215686274,0.8134319681127137,0.807843137254902,1,0.7372549019607844&swatchOrder=0,1,2,3,4*/
+/* #e76630;  orange*/
+/* #3b54ac;  blue*/
+/* #EBEBEB;  light gray*/
 
-
-   /*     html, body {
-            height: 100%;
-        }*/
 
   html {
       font-size: 18px;
@@ -178,9 +173,6 @@
 
 
   /*CONTACT*/
-  #profile-picture, #about-me {
-      /*text-align: center;*/
-  }
   #profile-picture img{
       max-height: 350px;
       max-width: 90%;
@@ -231,49 +223,18 @@
       height: 420px;
   }
 
-  #color-1-column {
-      width: 100%;
-      /*background-color: red;*/
-  }
-  #color-2-column {
-      width: 50%;
-      /*background-color: blue;*/
-  }
-  #color-3-column {
-      width: 33%;
-      /*background-color: blue;*/
-  }
-  #color-4-column {
-      width: 25%;
-      /*background-color: blue;*/
-  }
-  #color-5-column {
-      width: 20%;
-      /*background-color: blue;*/
-  }
-  #color-6-column {
-      width: 16.6667%;
-      /*background-color: blue;*/
-  }
-  #color-7-column {
-      width: 14.286%;
-      /*background-color: blue;*/
-  }
+  /*GRID*/
+  #color-1-column { width: 100%; }
+  #color-2-column { width: 50%; }
+  #color-3-column { width: 33%; }
+  #color-4-column { width: 25%; }
+  #color-5-column { width: 20%; }
+  #color-6-column { width: 16.6667%; }
+  #color-7-column { width: 14.286%; }
+  #color-8-column { width: 12.5%; }
+  #color-checkboxes { margin-top: 20px; }
 
-  #color-8-column {
-      width: 12.5%;
-      /*background-color: blue;*/
-  }
-
-  #color-checkboxes {
-    margin-top: 20px;
-  }
-
-  #new-student {
-      padding-top:25px;
-      padding-bottom:25px;
-  }
-
+  #new-student { padding-top:25px; padding-bottom:25px; }
 
 /***************************************/
         /*PROJECT-02*/
@@ -298,7 +259,6 @@
 }
 #fake-content { height: 350px;}
 #fake-content {
-  /*background-image: url('../images/rio-1024-400.jpg');*/
   background: url('../images/rio.jpg') no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
