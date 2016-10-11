@@ -42,6 +42,8 @@ Route::get('project-02', ['as' => 'project-02',  function() {
   return view('projects.project-02');
 }]);
 
+//PROJECT 03
+//NO ROUTING REQUIRED. LINK IS ON PROJECTS VIEW.
 
 /*
 |--------------------------------------------------------------------------

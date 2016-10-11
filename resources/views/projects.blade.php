@@ -15,7 +15,9 @@ Projects
   <!-- SCROLL TOP BUTTON -->
   <button class="btn scroll-top"><img src='images/up-arrow-white-36x36.png'></button>
 
-    <!-- PROJECT-01 -->
+<!--***************************************-->
+<!-- PROJECT-01 -->
+<!--***************************************-->
     <div class="row">
         <!-- PROJECT IMAGE -->
         <div class="col-md-4 center-inline">
@@ -40,7 +42,9 @@ Projects
         </div>
       </div>
     </div>
-    <!-- PROJECT-02 -->
+<!--***************************************-->
+<!-- PROJECT-02 -->
+<!--***************************************-->
     </br>
     <div class="row">
         <!-- PROJECT IMAGE -->
@@ -64,18 +68,41 @@ Projects
             </div>
         </div>
     </div>
-    <!-- PROJECT-03 -->
+<!--***************************************-->
+<!-- PROJECT-03 -->
+<!--***************************************-->
     </br>
     <div class="row">
         <!-- PROJECT IMAGE -->
         <div class="col-md-4 center-inline">
             <img src="images/animal-blue.png">
         </div>
+
         <!-- PROJECT DESCRIPTION -->
         <div class="col-md-8">
-            <h3>(New Project Coming Soon)</h3>
+            <a href="http://my.regattanetwork.com" target="_blank"><h3>My Regatta Network</h3></a>
+            <div class="project-description">
+              <p>
+                This web application helps sailboat racers organize their regattas, crew, race payments, and results. It was built for a company using the PHP framework, Laravel. It uses HTML, CSS, and Javascript. It also uses a Google API to help suggest events near the user by converting her street address to latitude and longitude. This project demonstrates my skill bases. I started with user journies and mockups before planning and building the database architecture, front end design, and front and backend coding. Feel free to use the credentials below to explore it.
+              </p>
+              <p class="tools-header">Test Credentials:</p>
+              <p>username: tester@gmail.com</p>
+              <p>password: test</p>
+
+              <!-- CODE BASE-->
+              <p class="tools-header">Tools & Concepts:</p>
+              <div class="btn-group" role="group" aria-label>
+                <button type="button" class="btn btn-default nohover">Laravel/PHP</button>
+                <button type="button" class="btn btn-default nohover">API</button>
+                <button type="button" class="btn btn-default nohover">Database design</button>
+                <button type="button" class="btn btn-default nohover">Design Mockups</button>
+              </div>
+            </div>
+            <p>[Code is proprietary. But I'm happy to talk (without specifics) about any of its features.]</p>
+
         </div>
     </div>
+
     <br/>
 
 
