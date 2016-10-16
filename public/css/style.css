@@ -29,6 +29,10 @@
       margin-left: 0.5em;
   }
 
+  .color-1 {
+    color: #337ab7;
+  }
+
   .container {
       margin-left: 10px;
       margin-right: 10px;
@@ -171,7 +175,7 @@
     background-color: white;
 }
 
-
+  .sign-in p:first-child{ margin-bottom: 0px;}
   /*CONTACT*/
   #profile-picture img{
       max-height: 350px;
