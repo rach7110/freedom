@@ -209,16 +209,19 @@
     .scroll-top { width: 25px; height: 25px;}
     .scroll-top img { background-size: 24px;}
     }
-  }
+
 
 /***************************************/
   /*PROJECT-01*/
 /***************************************/
   #color-swatch {
-      max-width: 95%;
-      width: 840px;
-      height: 422px;
-      border: gray 1px solid;
+    background-color: lightgray;
+    border-radius: 5px;
+    border: lightgray 1px solid;
+    max-width: 95%;
+    width: 840px;
+    height: 432px;
+    padding-top: 5px;
   }
 
   .color-block {

@@ -62,7 +62,7 @@ Projects
               <p class="tools-header">Tools & Concepts:</p>
               <div class="btn-group" role="group" aria-label="...">
                 <button type="button" class="btn btn-default"><a href="https://github.com/rach7110/freedom/blob/master/public/js/script.js#L61" target="_blank">JQuery</a></button>
-                <button type="button" class="btn btn-default"><a href="https://github.com/rach7110/freedom/blob/master/public/css/style.css#L244" target="_blank">CSS</a></button>
+                <button type="button" class="btn btn-default"><a href="https://github.com/rach7110/freedom/blob/master/public/css/style.css#L244I spoke" target="_blank">CSS</a></button>
                 <button type="button" class="btn btn-default nohover">Browser Cookies</button>
               </div>
             </div>
