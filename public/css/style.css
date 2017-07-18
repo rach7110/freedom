@@ -1,9 +1,9 @@
+/*HEADER: */
+/* #40376e dark purple */
+/* #D4E4BC light grey */
+/* Theme: https://coolors.co/d4e4bc-96acb7-36558f-40376e-48233c */
 
-/*COLOR THEMES:*/
-/* #c2dde5; light blue*/
-/* #bcc8db;  light purple*/
-/* #BDCCDD;  light blue-purple */
-
+/*ANIMALS*/
 /* #e76630;  orange*/
 /* #3b54ac;  blue*/
 /* #EBEBEB;  light gray*/
@@ -62,8 +62,13 @@
   }
 
   .navbar{
-      background-color: #BDCCDD; /* light blue-purple */
+      background-color: #40376E; 
   }
+
+  .navbar-default .navbar-brand { color: white; }
+  .navbar-default .navbar-nav>li>a { color: white; }
+  .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover { color: #96ACB7; }
+  .navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover { color: #96ACB7; }
 
   #navbar-name {
       font-size: 25px;
@@ -199,7 +204,7 @@
     bottom: 20px;
     right: 10px;
     display: none;
-    background: #BDCCDD;
+    background: #40376E;
     background-repeat: no-repeat;
     margin: auto;
 
