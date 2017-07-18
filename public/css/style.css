@@ -112,18 +112,17 @@
   }
 
   /*RESUME*/
-
   .contact h4 {
       margin-top: 2px;
       margin-bottom: 2px;
   }
 
-  .job-header p, .education-header p {
+  .resume-title p {
       font-size: .8rem;
       margin-bottom: 0px;
   }
 
-  p.job-title, p.education-title {
+  p.resume-subtitle{
       font-size: 1.1rem;
   }
 

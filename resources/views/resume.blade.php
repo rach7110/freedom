@@ -32,7 +32,7 @@ Resume
         </ul>
     </div>
 
-        <div class="col-md-4">
+    <div class="col-md-4">
         <ul>
             <li>SQLite, MySQL</li>
             <li>Command Line Interface</li>
@@ -47,19 +47,18 @@ Resume
 <h3>PROFESSIONAL EXPERIENCE</h3>
 <hr>
 <!-- ******************************************************** -->
-<!-- **********************JOBS******************************* -->
+<!-- **********************JOBS****************************** -->
 <!-- ******************************************************** -->
-
-<div class="row job-header">
+<div class="row resume-title">
     <div class="col-md-7">
-        <p class="job-title">Web Developer / Customer Service Rep</p>
+        <p class="resume-subtitle">Web Developer / Customer Service Rep</p>
     </div>
         <div class="col-md-5">
         <p class="dates">April 2014 - present</p>
     </div>
 </div>
-
-<div class="row job-header">
+<!-- **********************JOB************************* -->
+<div class="row resume-title">
     <div class="col-md-7">
         <p class="company-name">Regatta Network</p>
     </div>
@@ -67,7 +66,6 @@ Resume
         <p class="company-location">San Marcos, TX</p>
     </div>
 </div>
-
 <div class="job-description">
     <ul>
         <li>Modify company's legacy product written in PHP</li>
@@ -81,19 +79,16 @@ Resume
         <li>Provide product support to users</li>
     </ul>
 </div>
-
-<!-- **********************NEXT JOB************************* -->
-
-<div class="row job-header">
+<!-- ********************** JOB ************************* -->
+<div class="row resume-title">
     <div class="col-md-7">
-        <p class="job-title">Business Developer</p>
+        <p class="resume-subtitle">Business Developer</p>
     </div>
         <div class="col-md-5">
         <p class="dates">June 2011 – Mar 2014</p>
     </div>
 </div>
-
-<div class="row job-header">
+<div class="row resume-title">
     <div class="col-md-7">
         <p class="company-name">Greenergy Engineering</p>
     </div>
@@ -101,7 +96,6 @@ Resume
         <p class="company-location">Austin, TX</p>
     </div>
 </div>
-
 <div class="job-description">
     <ul>
         <li>Oversaw sales, marketing, administration, accounting, and engineering of a new business segment</li>
@@ -110,19 +104,16 @@ Resume
         <li>Interviewed and trained new employees</li>
     </ul>
 </div>
-
-<!-- **********************NEXT JOB************************* -->
-
-<div class="row job-header">
+<!-- ********************** JOB ************************* -->
+<div class="row resume-title">
     <div class="col-md-7">
-        <p class="job-title">Project Engineer</p>
+        <p class="resume-subtitle">Project Engineer</p>
     </div>
         <div class="col-md-5">
         <p class="dates">Sept 2008 – Aug 2010</p>
     </div>
 </div>
-
-<div class="row job-header">
+<div class="row resume-title">
     <div class="col-md-7">
         <p class="company-name">Invenergy</p>
     </div>
@@ -130,7 +121,6 @@ Resume
         <p class="company-location">Chicago, IL</p>
     </div>
 </div>
-
 <div class="job-description">
     <ul>
         <li>Led vendor evaluation strategy for business partnership that resulted in a long-term contract for repair
@@ -147,19 +137,16 @@ Resume
 
     </ul>
 </div>
-
-<!-- **********************NEXT JOB************************* -->
-
-<div class="row job-header">
+<!-- ********************** JOB ************************* -->
+<div class="row resume-title">
     <div class="col-md-7">
-        <p class="job-title">Supplier Quality Engineer</p>
+        <p class="resume-subtitle">Supplier Quality Engineer</p>
     </div>
         <div class="col-md-5">
         <p class="dates">March 2007 – Aug 2008</p>
     </div>
 </div>
-
-<div class="row job-header">
+<div class="row resume-title">
     <div class="col-md-7">
         <p class="company-name">Clipper Windpower</p>
     </div>
@@ -167,7 +154,6 @@ Resume
         <p class="company-location">Cicero, IL</p>
     </div>
 </div>
-
 <div class="job-description">
     <ul>
         <li>Managed supplier acceptance process for large manufactured components</li>
@@ -177,19 +163,16 @@ Resume
         <li>Created metrics and reported to management on supplier delivery and quality</li>
     </ul>
 </div>
-
-<!-- **********************NEXT JOB************************* -->
-
-<div class="row job-header">
+<!-- **********************JOB************************* -->
+<div class="row resume-title">
     <div class="col-md-7">
-        <p class="job-title">Product Specialist</p>
+        <p class="resume-subtitle">Product Specialist</p>
     </div>
         <div class="col-md-5">
         <p class="dates">Sept 2005 – March 2007</p>
     </div>
 </div>
-
-<div class="row job-header">
+<div class="row resume-title">
     <div class="col-md-7">
         <p class="company-name">ITT Bell & Gossett </p>
     </div>
@@ -197,7 +180,6 @@ Resume
         <p class="company-location">Morton Grove, IL</p>
     </div>
 </div>
-
 <div class="job-description">
     <ul>
         <li>Provided product technical support for customers and Sales Representatives</li>
@@ -206,104 +188,97 @@ Resume
         <li>Performed monthly audits on manufacturing cells</li>
     </ul>
 </div>
-
 <!-- ******************************************************** -->
 <!-- **********************EDUCATION************************* -->
 <!-- ******************************************************** -->
-
 <hr>
 <h3>EDUCATION</h3>
 <hr>
-
 <div class="education">
-    <div class="row education-header">
+    <div class="row resume-title">
         <div class="col-md-7">
-            <p class="education-title">Introduction to Linux</p>
-        </div>
-            <div class="col-md-5">
-            <p class="dates">August 2015</p>
-        </div>
-    </div>
-
-    <div class="row education-header">
-        <div class="col-md-7">
-            <p class="education-subtitle">Linux Foundation</p>
-        </div>
-    </div>
-</div>
-
-<!-- **********************EDUCATION************************* -->
-<div class="education">
-
-    <div class="row education-header">
-        <div class="col-md-7">
-            <p class="education-title">Continuing Education, Web Development</p>
-        </div>
-            <div class="col-md-5">
-            <p class="dates">June - August 2013</p>
-        </div>
-    </div>
-
-    <div class="row education-header">
-        <div class="col-md-7">
-            <p class="education-subtitle">MakerSquare,  Austin, TX</p>
-        </div>
-    </div>
-</div>
-
-<!-- **********************EDUCATION************************* -->
-<div class="education">
-    <div class="row education-header">
-        <div class="col-md-7">
-            <p class="education-title">Business and Entrepreneurship Courses</p>
-        </div>
-            <div class="col-md-5">
-            <p class="dates">May 2010 – Dec 2010</p>
-        </div>
-    </div>
-
-    <div class="row education-header">
-        <div class="col-md-7">
-            <p class="education-subtitle">Acton MBA in Entrepreneurship  Austin, TX </p>
-        </div>
-    </div>
-</div>
-
-<!-- **********************EDUCATION************************* -->
-<div class="education">
-    <div class="row education-header">
-        <div class="col-md-7">
-            <p class="education-title">Bachelor of Science: Mechanical Engineering</p>
+            <p class="resume-subtitle">Bachelor of Science: Mechanical Engineering</p>
         </div>
             <div class="col-md-5">
             <p class="dates">Aug 1998 - December 2002</p>
         </div>
     </div>
 
-    <div class="row education-header">
+    <div class="row resume-title">
         <div class="col-md-7">
-            <p class="education-subtitle">Minor: French Language</p>
+            <p>Minor: French Language</p>
         </div>
     </div>
-
-    <div class="row education-header">
+    <div class="row resume-title">
         <div class="col-md-7">
-            <p class="education-subtitle">University of Colorado, Boulder, CO</p>
+            <p>University of Colorado, Boulder, CO</p>
         </div>
     </div>
 </div>
+<!-- ******************************************************** -->
+<!-- **********************TRAINING************************* -->
+<!-- ******************************************************** -->
+<hr>
+<h3>TRAINING</h3>
+<hr>
+<!-- **********************TRAINING************************* -->
+<div class="education">
+    <div class="row resume-title">
+        <div class="col-md-7">
+            <p class="resume-subtitle">Introduction to Linux</p>
+        </div>
+            <div class="col-md-5">
+            <p class="dates">August 2015</p>
+        </div>
+    </div>
 
+    <div class="row resume-title">
+        <div class="col-md-7">
+            <p>Linux Foundation</p>
+        </div>
+    </div>
+</div>
+<!-- **********************TRAINING************************* -->
+<div class="education">
 
+    <div class="row resume-title">
+        <div class="col-md-7">
+            <p class="resume-subtitle">Continuing Education, Web Development</p>
+        </div>
+            <div class="col-md-5">
+            <p class="dates">June - August 2013</p>
+        </div>
+    </div>
+    <div class="row resume-title">
+        <div class="col-md-7">
+            <p>MakerSquare,  Austin, TX</p>
+        </div>
+    </div>
+</div>
+<!-- **********************TRAINING************************* -->
+<div class="education">
+    <div class="row resume-title">
+        <div class="col-md-7">
+            <p class="resume-subtitle">Business and Entrepreneurship Courses</p>
+        </div>
+            <div class="col-md-5">
+            <p class="dates">May 2010 – Dec 2010</p>
+        </div>
+    </div>
+    <div class="row resume-title">
+        <div class="col-md-7">
+            <p>Acton MBA in Entrepreneurship  Austin, TX </p>
+        </div>
+    </div>
+</div>
 <!-- ******************************************************** -->
 <!-- **********************OTHER***************************** -->
 <!-- ******************************************************** -->
-
 <hr>
 <h3>OTHER</h3>
 <hr>
-
 <div class="row">
-    <p class="education-title">Membership & Volunteering</p>
+    <p class="resume-subtitle">Membership & Volunteering</p>
     <ul>
         <li>Volunteer Instructor, Austin Yacht Club Women’s Sailing Clinic, 2012 - Present</li>
         <li>Member, Sierra Club Austin Chapter, 2011- 2014
@@ -316,10 +291,8 @@ Resume
         <li>Volunteer, Cabrini Green Tutor Center, 2009-2010</li>
     </ul>
 </div>
-
-
 <div class="row">
-    <p class="education-title">Foreign Languages</p>
+    <p class="resume-subtitle">Foreign Languages</p>
         <ul>
             <li>Portuguese (fluent)</li>
             <li>French (intermediate)</li>
@@ -327,6 +300,5 @@ Resume
 
         </ul>
 </div>
-
 
 @stop
