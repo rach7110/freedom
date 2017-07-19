@@ -31,7 +31,7 @@
 
 <body>
     <!-- NAVIGATION BAR -->
-    <nav class="navbar navbar-default">
+    <nav class="navbar navbar-default navbar-fixed-top">
         <div class="container-fluid">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
@@ -49,7 +49,6 @@
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-
                 <ul class="font-1 nav navbar-nav navbar-right">
                     <li><a href="{{ route('resume' )}}">Resume</a></li>
                     <li><a href="{{ route('projects') }}">Projects</a></li>
@@ -70,14 +69,13 @@
                       </ul>
                     </li>
                 </ul>
-
             </div><!-- /.navbar-collapse -->
 
         </div><!-- /.container-fluid -->
     </nav>
 
     <!-- MAIN CONTENT -->
-    <div class="container center-block">
+    <div class="container center-block content">
       <!-- HEADER -->
       <div class="row">
          <div class="col-md-12 font-1">

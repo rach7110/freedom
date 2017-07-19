@@ -78,6 +78,8 @@
   .navbar-right {
       font-size: 1.2em;
   }
+  /* FIX FOR STICKY NAVBAR */
+  .content { margin-top: 75px; } 
 
   .menu.pinata {
       width: 22px;
