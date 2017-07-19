@@ -121,11 +121,38 @@ Projects
 <!--***************************************-->
 <!-- PROJECT -->
 <!--***************************************-->
+    </br>
+    <div class="row">
+        <!-- PROJECT IMAGE -->
+        <div class="col-md-4 center-inline">
+          <a href="https://json-people.herokuapp.com/" target="_blank">
+            <img src="images/animal-blue.png">
+          </a>
+        </div>
+        <!-- PROJECT DESCRIPTION -->
+        <div class="col-md-8">
+            <a href="https://json-people.herokuapp.com/" target="_blank"><h3>JSON People</h3></a>
+            <div class="project-description">
+              <p>
+              Code that validates parameters from user input in JSON format, manipulates the data, and saves it to a database. Includes unit tests.
+              </p>
+              <!-- CODE BASE-->
+              <p class="tools-header">Tools & Concepts:</p>
+              <div class="btn-group" role="group" aria-label="...">
+                <button type="button" class="btn btn-default"><a href="https://github.com/rach7110/json-people-L5/tree/master/app" target="_blank">JSON</a></button>
+                <button type="button" class="btn btn-default"><a href="https://github.com/rach7110/json-people-L5/blob/master/tests/PeopleTest.php" target="_blank">Unit Testing</a></button>
+              </div>
+            </div>
+        </div>
+    </div>
+<!--***************************************-->
+<!-- PROJECT -->
+<!--***************************************-->
     <div class="row">
         <!-- PROJECT IMAGE -->
         <div class="col-md-4 center-inline">
           <a href="{{ route('project-01') }} " target="_blank">
-            <img src="images/animal-blue.png">
+            <img src="images/animal-skyblue.png">
           </a>
         </div>
         <!-- PROJECT DESCRIPTION -->
@@ -153,7 +180,7 @@ Projects
         <!-- PROJECT IMAGE -->
         <div class="col-md-4 center-inline">
           <a href="{{ route('project-02') }}" target="_blank">
-            <img src="images/animal-skyblue.png">
+            <img src="images/animal-orange.png">
           </a>
         </div>
         <!-- PROJECT DESCRIPTION -->
