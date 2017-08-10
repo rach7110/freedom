@@ -1,4 +1,4 @@
-You received a message from Rachel-portfolio.herokuapp.com.com:
+You received a message from Rachel-portfolio.herokuapp.com:
 
 <p>
 Name: {{ $name }}

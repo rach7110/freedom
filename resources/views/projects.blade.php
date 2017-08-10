@@ -32,7 +32,7 @@ Projects
           <!-- PROJECT DESCRIPTION -->
             <div class="project-description">
               <p>
-                This web application is every sailor's best friend as it helps them stay organized with their events and registrations. It was built for a company using the PHP framework, Laravel. It uses HTML, CSS, and Javascript. It also uses a Google API to help suggest events near the user by converting her street address to latitude and longitude. This project required knowledge beyond the frontend and backend coding. I started with user journies and mockups to plan the front-end designs. I also used flowcharts to design the database architecture.
+                This web application is every sailor's best friend as it helps them stay organized with their events and registrations. It was built for a company using the PHP framework, Laravel. It uses HTML, CSS, and Javascript. It also uses a Google API to help suggest events near the user by converting her street address to latitude and longitude. This project required knowledge beyond the frontend and backend coding. I started with user journeys and mockups to plan the front-end designs. I also used flowcharts to design the database architecture.
                 </p>
               <p>
                 NOTE: This site contains several several links to the company's legacy project. Any URL with my.regattanetwork.com is part of the project that I built. However, any URL that begins with www.regatttanetwork.com was built years ago by a different development team.
@@ -74,7 +74,7 @@ Projects
         </div>
         <!-- PROJECT DESCRIPTION -->
         <div class="col-md-8">
-            <a href="http://phrf-calculator.herokuapp.com/" target="_blank"><h3>Racing Handicap Calulator</h3></a>
+            <a href="http://phrf-calculator.herokuapp.com/" target="_blank"><h3>Racing Handicap Calculator</h3></a>
             <div class="project-description">
               <p>
                 A sailboat racing calculator. Determines a sailboat's corrected finish time using one of many different handicap systems. Includes a weather API so users can view environmental factors that may affect the results.
@@ -108,7 +108,7 @@ Projects
         <div class="col-md-8">
             <a href="https://github.com/rach7110/racing-handicap-classes" target="_blank"><h3>Racing Handicap Classes</h3></a>
             <div class="project-description">
-              <p>Classes and unit tests for the sailboat racing caluclator. This sample exhibits that I can write PHP from scratch and not just within an MVC framework.</p>
+              <p>Classes and unit tests for the sailboat racing calculator. This sample exhibits that I can write PHP from scratch and not just within an MVC framework.</p>
               <!-- CODE BASE-->
               <p class="tools-header">Tools & Concepts:</p>
               <div class="btn-group" role="group" aria-label="...">

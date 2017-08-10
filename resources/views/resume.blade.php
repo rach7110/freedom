@@ -99,7 +99,7 @@ Resume
 <div class="job-description">
     <ul>
         <li>Oversaw sales, marketing, administration, accounting, and engineering of a new business segment</li>
-        <li>Generated leads through trade shows, online marketing campaigns, and cold calling</li>
+        <li>Generated leads through trade shows, on-line marketing campaigns, and cold calling</li>
         <li>Created digital marketing material and managed website content using Joomla CMS</li>
         <li>Interviewed and trained new employees</li>
     </ul>
