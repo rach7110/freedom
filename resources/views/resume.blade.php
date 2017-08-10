@@ -22,13 +22,14 @@ Resume
 <div class="row">
     <div class="col-md-4">
         <ul>
+            <li>Object-oriented programming</li>
             <li>PHP</li>
-            <li>Ruby (basic)</li>
             <li>Laravel</li>
-            <li>JavaScript</li>
+            <li>Ruby (basic)</li>
+            <li>JavaScript (basic)</li>
             <li>JQuery</li>
             <li>HTML, CSS</li>
-            <li>Bootstrap, Foundation</li>
+            <li>Bootstrap</li>
         </ul>
     </div>
 
@@ -54,7 +55,7 @@ Resume
         <p class="resume-subtitle">Web Developer / Customer Service Rep</p>
     </div>
         <div class="col-md-5">
-        <p class="dates">April 2014 - present</p>
+        <p class="dates">April 2014 - June 2017</p>
     </div>
 </div>
 <!-- **********************JOB************************* -->
