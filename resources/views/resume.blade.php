@@ -13,7 +13,7 @@ Resume
 <h3>OBJECTIVE & SUMMARY</h3>
 <hr>
 <h4>
-    A problem‐solver who prioritizes the needs of the business while always thinking of the end users. Experience working in Web Development, Sales, Project Engineering, and Manufacturing Quality Assurance roles. Passionate about entrepreneurship, technology, and quality. Seeking a company that challenges me wile supporting my skill growth.
+    A problem‐solver who prioritizes the needs of the business while always thinking of the end users. Experience working in Web Development, Sales, Project Engineering, and Manufacturing Quality Assurance roles. Passionate about entrepreneurship, technology, and quality. Seeking a company that challenges me while supporting my skill growth.
 </h4>
 
 <hr>
@@ -26,7 +26,7 @@ Resume
             <li>PHP</li>
             <li>Laravel</li>
             <li>Ruby (basic)</li>
-            <li>JavaScript (basic)</li>
+            <li>JavaScript</li>
             <li>JQuery</li>
             <li>HTML, CSS</li>
             <li>Bootstrap</li>
@@ -37,7 +37,7 @@ Resume
         <ul>
             <li>SQLite, MySQL</li>
             <li>Command Line Interface</li>
-            <li>Sublime, Jetbrains, VIM</li>
+            <li>Sublime, JetBrains, VIM</li>
             <li>OSX, Linux, Windows</li>
             <li>Git</li>
         </ul>

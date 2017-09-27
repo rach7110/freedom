@@ -32,7 +32,7 @@ Projects
           <!-- PROJECT DESCRIPTION -->
             <div class="project-description">
               <p>
-                This web application is every sailor's best friend as it helps them stay organized with their events and registrations. It was built for a company using the PHP framework, Laravel. It uses HTML, CSS, and Javascript. It also uses a Google API to help suggest events near the user by converting her street address to latitude and longitude. This project required knowledge beyond the frontend and backend coding. I started with user journeys and mockups to plan the front-end designs. I also used flowcharts to design the database architecture.
+                This web application is every sailor's best friend as it helps them stay organized with their events and registrations. It was built for a company using the PHP framework, Laravel. It uses HTML, CSS, and JavaScript. It also uses a Google API to help suggest events near the user by converting her street address to latitude and longitude. This project required knowledge beyond the front-end and back-end coding. I started with user journeys and mock-ups to plan the front-end designs. I also used flowcharts to design the database architecture.
                 </p>
               <p>
                 NOTE: This site contains several several links to the company's legacy project. Any URL with my.regattanetwork.com is part of the project that I built. However, any URL that begins with www.regatttanetwork.com was built years ago by a different development team.
@@ -54,7 +54,7 @@ Projects
                 <button type="button" class="btn btn-default nohover">Design Mockups</button>
                 <button type="button" class="btn btn-default nohover">HTML</button>
                 <button type="button" class="btn btn-default nohover">CSS</button>
-                <button type="button" class="btn btn-default nohover">Javascript/JQuery</button>
+                <button type="button" class="btn btn-default nohover">JavaScript/JQuery</button>
               </div>
             </div>
             <p>(Code is proprietary)</p>
@@ -163,7 +163,7 @@ Projects
             <!-- CODE BASE-->
             <p class="tools-header">Tools & Concepts:</p>
             <div class="btn-group" role="group" aria-label="...">
-              <button type="button" class="btn btn-default"><a href="https://github.com/rach7110/freedom/blob/master/public/js/script.js#L18" target="_blank">Javascript & JQuery</a></button>
+              <button type="button" class="btn btn-default"><a href="https://github.com/rach7110/freedom/blob/master/public/js/script.js#L18" target="_blank">JavaScript & JQuery</a></button>
               <button type="button" class="btn btn-default"><a href="https://github.com/rach7110/freedom/blob/master/public/css/style.css#L230" target="_blank">CSS Grid</a></button>
               <button type="button" class="btn btn-default"><a href="https://github.com/rach7110/freedom/blob/master/resources/views/projects/project-01.blade.php" target="_blank">HTML</a></button>
               <button type="button" class="btn btn-default nohover">MVC Architecture</button>
