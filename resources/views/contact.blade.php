@@ -63,7 +63,7 @@ Contact
                         {{ Form::textarea('message', null, array('required', 'class'=>'form-control',  'placeholder'=>'Message')) }}
                     </div>
 
-                    <input type="submit" value="Submit">
+                    <input class="btn btn-primary btn-lg" type="submit" value="Submit">
                 {{ Form::close() }}
 
 
