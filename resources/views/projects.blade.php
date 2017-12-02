@@ -100,20 +100,20 @@ Projects
     <div class="row">
         <!-- PROJECT IMAGE -->
         <div class="col-md-4 center-inline">
-          <a href="https://github.com/rach7110/racing-handicap-classes" target="_blank">
+          <a href="https://pure-stardust.herokuapp.com/" target="_blank">
             <img src="images/animal-orange.png">
           </a>
         </div>
         <!-- PROJECT DESCRIPTION -->
         <div class="col-md-8">
-            <a href="https://github.com/rach7110/racing-handicap-classes" target="_blank"><h3>Racing Handicap Classes</h3></a>
+            <a href="https://pure-stardust.herokuapp.com/" target="_blank"><h3>Messenger App</h3></a>
             <div class="project-description">
-              <p>Classes and unit tests for the sailboat racing calculator. This sample exhibits that I can write PHP from scratch and not just within an MVC framework.</p>
+              <p>In order to understand the websocket protocol better, I built a ubiquitous chat app using Socket.io and Express.js</p>
               <!-- CODE BASE-->
               <p class="tools-header">Tools & Concepts:</p>
               <div class="btn-group" role="group" aria-label="...">
-                <button type="button" class="btn btn-default"><a href="https://github.com/rach7110/racing-handicap-classes/tree/master/src" target="_blank">PHP Classes</a></button>
-                <button type="button" class="btn btn-default"><a href="https://github.com/rach7110/racing-handicap-classes/tree/master/tests" target="_blank">Unit Testing</a></button>
+                <button type="button" class="btn btn-default"><a href="https://github.com/rach7110/chat_app/blob/master/public/js/script.js" target="_blank">JavaScript</a></button>
+                <button type="button" class="btn btn-default"><a href="https://github.com/rach7110/chat_app/blob/master/index.js" target="_blank">Web Socket</a></button>
               </div>
             </div>
         </div>
