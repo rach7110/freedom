@@ -11,9 +11,16 @@ Blog
 @section('content')
 
 @foreach($posts as $post)
-<h3>
-    <a href=''>{{ $post->title }}</a>
-</h3>
+    <h3>
+        <!-- Link a page to post title if slug has been saved. -->
+        @if($post->id)
+            <a href="{{ route('post.show', ['slug' => $post->slug]) }}">{{ $post->title }}</a>
+        
+        <!-- Otherwise, display post title only. -->
+        @else
+            {{ $post->title }}
+        @endif
+    </h3>
 @endforeach
     
 @stop
