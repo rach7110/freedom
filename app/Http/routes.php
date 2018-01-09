@@ -15,6 +15,10 @@ Route::get('/', ['as' => 'welcome', function () {
     return view('welcome');
 }]);
 
+Route::get('blog', ['as' => 'blog', function(){
+    return view('blog');
+}]);
+
 Route::get('resume', ['as' => 'resume', function () {
     return view('resume');
 }]);
