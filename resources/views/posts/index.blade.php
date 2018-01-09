@@ -6,9 +6,14 @@ Blog
 @stop
 
 @section('title_description')
-Blog
 @stop
 
 @section('content')
-Lorem ipsum!
+
+@foreach($posts as $post)
+<h3>
+    <a href=''>{{ $post->title }}</a>
+</h3>
+@endforeach
+    
 @stop
