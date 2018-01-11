@@ -190,11 +190,12 @@
 /*BLOG*/
 .blog { 
     font-family: Georgia,Cambria,"Times New Roman",Times,serif;
-}
-
-.blog {
     font-size: 21px;
     line-height: 1.58;
+}
+
+.blog p{
+    margin-top: 15px;
 }
 
 .blog li {
