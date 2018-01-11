@@ -52,7 +52,7 @@ class PostController extends Controller
     {
         $post = Post::where('slug', $slug)->firstOrFail();
 
-        return view('posts.show')->with('post', $post);
+        return view('posts.' . $slug)->with('post', $post);
 
     }
 
