@@ -13,7 +13,7 @@ Blog
 @foreach($posts as $post)
     <h3>
         <!-- Link a page to post title if slug has been saved. -->
-        @if($post->id)
+        @if($post->slug)
             <a href="{{ route('blog.show', ['slug' => $post->slug]) }}">{{ $post->title }}</a>
         
         <!-- Otherwise, display post title only. -->
