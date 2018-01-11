@@ -9,5 +9,8 @@
 @stop
 
 @section('content')
+    <!-- BACK TO BLOG LIST -->
+    <a href="{{route('blog')}}">< Blog</a>
+
     @yield('post-content')
 @stop
