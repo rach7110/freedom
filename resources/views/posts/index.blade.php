@@ -14,7 +14,7 @@ Blog
     <h3>
         <!-- Link a page to post title if slug has been saved. -->
         @if($post->id)
-            <a href="{{ route('post.show', ['slug' => $post->slug]) }}">{{ $post->title }}</a>
+            <a href="{{ route('blog.show', ['slug' => $post->slug]) }}">{{ $post->title }}</a>
         
         <!-- Otherwise, display post title only. -->
         @else

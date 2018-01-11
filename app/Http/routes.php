@@ -15,8 +15,8 @@ Route::get('/', ['as' => 'welcome', function () {
     return view('welcome');
 }]);
 
-Route::get('blog', ['as' => 'post', 'uses' => 'PostController@index']);
-Route::get('blog/{slug}', ['as' => 'post.show', 'uses' => 'PostController@show']);
+Route::get('blog', ['as' => 'blog', 'uses' => 'PostController@index']);
+Route::get('blog/{slug}', ['as' => 'blog.show', 'uses' => 'PostController@show']);
 
 Route::get('resume', ['as' => 'resume', function () {
     return view('resume');
