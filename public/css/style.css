@@ -21,6 +21,10 @@
       font-family: 'Lato', Arial, serif; ;
   }
 
+  h1 {
+    font-weight: 600;
+  }
+
   li {
       font-size: 1rem;
   }
@@ -182,6 +186,31 @@
 }
 
   .sign-in p:first-child{ margin-bottom: 0px;}
+
+/*BLOG*/
+.blog { 
+    font-family: Georgia,Cambria,"Times New Roman",Times,serif;
+}
+
+.blog {
+    font-size: 21px;
+    line-height: 1.58;
+}
+
+.blog li {
+    font-family: 'Lato', Arial, serif;
+}
+
+.blog h3, .blog p:first-child  { 
+    margin-top: 38px;
+}
+
+.inset-column {
+    max-width: 75%;
+    margin: 0 auto;
+}
+
+
   /*CONTACT*/
   #profile-picture img{
       max-height: 350px;
