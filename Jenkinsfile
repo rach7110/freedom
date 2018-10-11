@@ -12,5 +12,10 @@ pipeline {
         sh 'composer install'
       }
     }
+    stage('Deliever') {
+      steps {
+        sh 'php artisan migrate'
+      }
+    }
   }
 }
