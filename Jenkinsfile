@@ -14,7 +14,8 @@ pipeline {
     }
     stage('Deliever') {
       steps {
-        sh 'php artisan migrate'
+        sh '''php artisan serve
+'''
       }
     }
   }
