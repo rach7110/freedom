@@ -1,5 +1,5 @@
 <?php
-namespace app\Services\ImageRecognition;
+namespace App\Services\ImageRecognition;
 
 use Clarifai\API\ClarifaiClient;
 use Clarifai\DTOs\Inputs\ClarifaiURLImage;
@@ -13,16 +13,16 @@ use Clarifai\DTOs\Models\ModelType;
 class ClarifaiApiService
 {
     private $client;
-    private $model;
 
     public function __construct() 
     {
         $this->client = new ClarifaiClient(env('CLARIFAI_API_KEY'));
-        $this->model = $client->publicModels()->generalModel();
     }
 
     public function send_request()
     {
+        $model = $this->client->publicModels()->generalModel();
+
         $response = $model->batchPredict([
             new ClarifaiURLImage('https://samples.clarifai.com/metro-north.jpg'),
             new ClarifaiURLImage('https://samples.clarifai.com/wedding.jpg'),
