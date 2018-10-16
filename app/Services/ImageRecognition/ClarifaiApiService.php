@@ -47,13 +47,16 @@ class ClarifaiApiService
         foreach ($outputs as $output) {
             /** @var ClarifaiURLImage $image */
             $image = $output->input();
-            echo "Predicted concepts for image at url " . $image->url() . "\n";
+            echo "Predicted concepts for image at url " . $image->url();
+            echo "</br>";
             
             /** @var Concept $concept */
             foreach ($output->data() as $concept) {
-                echo $concept->name() . ': ' . $concept->value() . "\n";
+                echo $concept->name() . ': ' . $concept->value();
+                echo "</br>";
             }
-            echo "\n";
+            echo "</br>";
+            echo "</br>";
         }
     }
 

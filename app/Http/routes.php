@@ -11,6 +11,10 @@
 |
 */
 
+$clarifai = new App\Services\ImageRecognition\ClarifaiApiService;
+
+Route::get('/image', ['as' => 'image', 'uses' => 'ClarifaiController@handle']);
+
 Route::get('/', ['as' => 'welcome', function () {
     return view('welcome');
 }]);
