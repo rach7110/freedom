@@ -39,9 +39,8 @@ class ClarifaiApiService
         return $response;
     }
 
-    public function display_output()
+    public function display_output($response)
     {
-        $response = $this->send_request();
         $outputs = $response->get();
 
         foreach ($outputs as $output) {
