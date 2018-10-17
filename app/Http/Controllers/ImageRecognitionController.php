@@ -4,15 +4,15 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Http\Requests;
-use App\Services\ImageRecognition\ClarifaiApiService;
+use App\ImageRecognitionInterface;
 
 class ImageRecognitionController extends Controller
 {
-    protected $clarifaiService;
+    protected $imageRecognition;
 
-    public function __construct()
+    public function __construct(ImageRecognitionInterface $imageRecognitionService)
     {
-        $this->clarifaiService = new ClarifaiApiService;
+        $this->imageRecognition = $imageRecognitionService;
     }   
 
     public function create()
@@ -22,7 +22,7 @@ class ImageRecognitionController extends Controller
 
     public function store()
     {
-        $response = $this->clarifaiService->send_request();
-        $this->clarifaiService->display_output($response);
+        $response = $this->imageRecognition->send_request();
+        $this->imageRecognition->display_output($response);
     }
 }
