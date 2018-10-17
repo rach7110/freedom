@@ -8,9 +8,10 @@ use Clarifai\DTOs\Predictions\Concept;
 use Clarifai\DTOs\Searches\SearchBy;
 use Clarifai\DTOs\Searches\SearchInputsResult;
 use Clarifai\DTOs\Models\ModelType;
+use App\ImageRecognitionInterface;
 
 
-class ClarifaiApiService
+class ClarifaiApiService implements ImageRecognitionInterface
 {
     private $client;
 
