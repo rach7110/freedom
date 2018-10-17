@@ -158,8 +158,8 @@ return [
 
         // Developer-added Service Providers:
         Collective\Html\HtmlServiceProvider::class,
-
-
+        App\Providers\ImageRecognitionServiceProvider::class
+        
     ],
 
     /*
