@@ -23,10 +23,22 @@ class ImageRecognitionController extends Controller
 
     public function store()
     {
-        $response = $this->imageRecognition->send_request();
+        // Local
+        $input = [
+            "/Users/rachel/Desktop/cat.jpg",
+            // "/Users/rachel/Desktop/kayak.jpg"
+        ];
+
+        //Remote
+        // $input = [
+        //     "https://samples.clarifai.com/metro-north.jpg",
+        //     "https://samples.clarifai.com/wedding.jpg"
+        // ];     
+    
+        $response = $this->imageRecognition->send_request($input);
 
         if($response->isSuccessful()) {
-            $this->imageRecognition->display_output($response);            
+            $this->imageRecognition->display_output($response);
         } else {
             Session::flash('message', 'Response not successful. Error Code: ' . $response->status()->statusCode());
             Session::flash('alert-class', 'alert-danger');
