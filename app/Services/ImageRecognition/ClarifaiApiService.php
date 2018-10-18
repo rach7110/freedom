@@ -3,6 +3,7 @@ namespace App\Services\ImageRecognition;
 
 use Clarifai\API\ClarifaiClient;
 use Clarifai\DTOs\Inputs\ClarifaiURLImage;
+use Clarifai\DTOs\Inputs\ClarifaiFileImage;
 use Clarifai\DTOs\Outputs\ClarifaiOutput;
 use Clarifai\DTOs\Predictions\Concept;
 use Clarifai\DTOs\Searches\SearchBy;
@@ -20,22 +21,21 @@ class ClarifaiApiService implements ImageRecognitionInterface
         $this->client = new ClarifaiClient(env('CLARIFAI_API_KEY'));
     }
 
+    /** Send request to API that will analyze media content
+     * 
+     * @return Object| array
+     */
     public function send_request()
     {
         $model = $this->client->publicModels()->generalModel();
 
-        $response = $model->batchPredict([
-            new ClarifaiURLImage('https://samples.clarifai.com/metro-north.jpg'),
-            new ClarifaiURLImage('https://samples.clarifai.com/wedding.jpg'),
-        ])->executeSync();
+        $image = "/Users/rachel/Desktop/cat.jpg";
 
-        if (!$response->isSuccessful()) {
-            echo "Response is not successful. Reason: \n";
-            echo $response->status()->description() . "\n";
-            echo $response->status()->errorDetails() . "\n";
-            echo "Status code: " . $response->status()->statusCode();
-            exit(1);
-        }  
+        $response = $model->batchPredict([
+            // new ClarifaiURLImage('https://samples.clarifai.com/metro-north.jpg'),
+            new ClarifaiFileImage("/Users/rachel/Desktop/cat.jpg"),
+            // new ClarifaiURLImage('https://samples.clarifai.com/wedding.jpg'),
+        ])->executeSync();  
 
         return $response;
     }

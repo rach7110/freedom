@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Http\Requests;
 use App\ImageRecognitionInterface;
+use Session;
 
 class ImageRecognitionController extends Controller
 {
@@ -23,6 +24,13 @@ class ImageRecognitionController extends Controller
     public function store()
     {
         $response = $this->imageRecognition->send_request();
-        $this->imageRecognition->display_output($response);
+
+        if($response->isSuccessful()) {
+            $this->imageRecognition->display_output($response);            
+        } else {
+            Session::flash('message', 'Response not successful. Error Code: ' . $response->status()->statusCode());
+            Session::flash('alert-class', 'alert-danger');
+            return back();
+        }
     }
 }
