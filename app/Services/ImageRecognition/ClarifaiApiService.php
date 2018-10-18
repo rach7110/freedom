@@ -23,42 +23,60 @@ class ClarifaiApiService implements ImageRecognitionInterface
 
     /** Send request to API that will analyze media content
      * 
-     * @return Object| array
+     * @return Object
      */
     public function send_request()
     {
         $model = $this->client->publicModels()->generalModel();
 
-        $image = "/Users/rachel/Desktop/cat.jpg";
-
+        //Local file
+        $input = new ClarifaiFileImage(file_get_contents("/Users/rachel/Desktop/cat.jpg"));
+        $response = $model->predict($input)->executeSync();
+        
+        //File URL
         $response = $model->batchPredict([
-            // new ClarifaiURLImage('https://samples.clarifai.com/metro-north.jpg'),
-            new ClarifaiFileImage("/Users/rachel/Desktop/cat.jpg"),
-            // new ClarifaiURLImage('https://samples.clarifai.com/wedding.jpg'),
+            new ClarifaiURLImage('https://samples.clarifai.com/metro-north.jpg'),
+            new ClarifaiURLImage('https://samples.clarifai.com/wedding.jpg'),
         ])->executeSync();  
 
         return $response;
     }
 
-    public function display_output($response)
+    public function display_single_output($response)
     {
-        $outputs = $response->get();
+        $output = $response->get();
 
-        foreach ($outputs as $output) {
-            /** @var ClarifaiURLImage $image */
-            $image = $output->input();
-            echo "Predicted concepts for image at url " . $image->url();
-            echo "</br>";
-            
-            /** @var Concept $concept */
-            foreach ($output->data() as $concept) {
-                echo $concept->name() . ': ' . $concept->value();
-                echo "</br>";
-            }
-            echo "</br>";
+        echo "Predicted concepts:";
+        echo "</br>";
+        
+        /** @var Concept $concept */
+        foreach ($output->data() as $concept) {
+            echo $concept->name() . ': ' . $concept->value();
             echo "</br>";
         }
+        echo "</br>";
+        echo "</br>";
     }
+
+    // public function display_multiple_output($response)
+    // {
+    //     $outputs = $response->get();
+
+    //     foreach ($outputs as $output) {
+    //         /** @var ClarifaiURLImage $image */
+    //         $image = $output->input();
+    //         echo "Predicted concepts for image at url " . $image->url();
+    //         echo "</br>";
+            
+    //         /** @var Concept $concept */
+    //         foreach ($output->data() as $concept) {
+    //             echo $concept->name() . ': ' . $concept->value();
+    //             echo "</br>";
+    //         }
+    //         echo "</br>";
+    //         echo "</br>";
+    //     }
+    // }
 
 
 }
