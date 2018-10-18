@@ -1,7 +1,14 @@
-<h1>Image Concepts</h1>
-<h3>This is where we will allow the user to upload image(-s)</h3>
+@extends('layouts.images')
+<head>
+    <title>Image Concepts</title>
+</head>
 
-<form action="{{route('image')}}" method="post">
-    {!! csrf_field() !!}
-    <input type="submit" value="Submit">
-</form>
+@section('content')
+    <h1>Image Concepts</h1>
+    <h3>This is where we will allow the user to upload image(-s)</h3>
+    
+    <form action="{{route('image')}}" method="post">
+        {!! csrf_field() !!}
+        <input type="submit" value="Submit">
+    </form>
+@stop
