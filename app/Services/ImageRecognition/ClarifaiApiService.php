@@ -22,6 +22,7 @@ class ClarifaiApiService implements ImageRecognitionInterface
     }
 
     /** Send request to API that will analyze media content
+     * 
      * @param array $input
      * @return Object
      */
