@@ -18,7 +18,7 @@ class ClarifaiApiService implements ImageRecognitionInterface
 
     public function __construct() 
     {
-        $this->client = new ClarifaiClient(env('CLARIFAI_API_KEY'));
+        $this->client = new ClarifaiClient(config('clarifai.secret'));
     }
 
     /** Send request to API that will analyze media content
