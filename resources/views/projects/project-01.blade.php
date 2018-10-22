@@ -89,51 +89,44 @@ Favorite Colors
         <div class="modal fade" id="newStudentModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" >
             <div class="modal-dialog" role="document">
                 <div class="modal-content">
-                        <div class="modal-header">
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                            <h4 class="modal-title" id="myModalLabel">Add New Student</h4>
-                        </div>
-
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title" id="myModalLabel">Add New Student</h4>
+                    </div>
+                    <form method="POST" action="{{route('new_student')}}">
+                        {{ csrf_field() }}
                         <div class="modal-body">
                             <div class="content">
-                                    {{ Form::open(array("route" => "new_student", "method" =>"POST")) }}
-
-                                <div class="form-group">
-                                    <label for="first">First Name: </label>
-                                    <input required type="text" id="first" class="form-control" name="first_name" placeholder="Anne">
-                                </div>
-                                <div class="form-group">
-                                    <label for="last">Last Name: </label>
-                                    <input required type="text" id="last" class="form-control" name="last_name" placeholder="Riefenstahl">
-                                </div>
-                                <div class="form-group">
-                                    <label for="color">Favorite Color </label>
-                                    <select required id="color" class="form-control" name="favorite_color">
-                                        <option value="">Please select...</option>
-                                        <option value="red">Red</option>
-                                        <option value="orange">Orange</option>
-                                        <option value="yellow">Yellow</option>
-                                        <option value="green">Green</option>
-                                        <option value="blue">Blue</option>
-                                        <option value="purple">Purple</option>
-                                        <option value="black">Black</option>
-                                        <option value="white">White</option>
-                                    </select>
-                                </div>
-
-                                </div>
+                                    <div class="form-group">
+                                        <label for="first">First Name: </label>
+                                        <input required type="text" id="first" class="form-control" name="first_name" placeholder="Anne">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="last">Last Name: </label>
+                                        <input required type="text" id="last" class="form-control" name="last_name" placeholder="Riefenstahl">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="color">Favorite Color </label>
+                                        <select required id="color" class="form-control" name="favorite_color">
+                                            <option value="">Please select...</option>
+                                            <option value="red">Red</option>
+                                            <option value="orange">Orange</option>
+                                            <option value="yellow">Yellow</option>
+                                            <option value="green">Green</option>
+                                            <option value="blue">Blue</option>
+                                            <option value="purple">Purple</option>
+                                            <option value="black">Black</option>
+                                            <option value="white">White</option>
+                                        </select>
+                                    </div>
+                            </div>
                         </div>
 
                         <div class="modal-footer">
-                            <!-- <input type="submit" class="btn btn-primary" data-dismiss="modal" id="new_student"> -->
-
-                            {{ Form::submit('Save', array("class"=>"btn btn-primary", "id"=>"new_student"))}}
+                            <button type="submit" id="new_student" class="btn btn-primary">Save</button>
                             <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
-
                         </div>
                     </form>
-
-
                 </div>
             </div>
         </div>

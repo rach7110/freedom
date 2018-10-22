@@ -47,24 +47,25 @@ Contact
         <div id="contact-form" class="col-md-5">
             <h3>I would like to hear from you</h3>
             <div>
-                {{ Form::open(array('route' => 'message')) }}
+                <form method="POST" action="{{route('message')}}">
+                    {{csrf_field()}}
                     <div class="form-group">
-                        <!-- {{ Form::label('Name') }} -->
-                        {{ Form::text('name', null, array('required', 'class'=>'form-control', 'placeholder'=>'Name')) }}
+                        <label for="name"></label>
+                        <input name="name" class="form-control" placeholder='Name' required>
                     </div>
 
                     <div class="form-group">
-                        <!-- {{ Form::label('Email') }} -->
-                        {{ Form::text('email', null, array('required', 'class'=>'form-control', 'placeholder'=>'E-mail address')) }}
+                        <label for="email"></label>
+                        <input name="email" class="form-control" placeholder='E-mail address' required>
                     </div>
 
                     <div class="form-group">
-                        <!-- {{ Form::label('Message') }} -->
-                        {{ Form::textarea('message', null, array('required', 'class'=>'form-control',  'placeholder'=>'Message')) }}
+                        <label for="message">Message</label>
+                        <input name="message" class="form-control" placeholder='Message' required>
                     </div>
 
                     <input class="btn btn-primary btn-lg" type="submit" value="Submit">
-                {{ Form::close() }}
+                </form>
 
 
             </div>

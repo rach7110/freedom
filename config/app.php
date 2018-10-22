@@ -150,14 +150,13 @@ return [
 
         /*
          * Application Service Providers...
-         */
+        */
         App\Providers\AppServiceProvider::class,
         App\Providers\AuthServiceProvider::class,
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
 
         // Developer-added Service Providers:
-        Collective\Html\HtmlServiceProvider::class,
         App\Providers\ImageRecognitionServiceProvider::class
         
     ],
