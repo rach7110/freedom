@@ -22,7 +22,7 @@
     <meta name="viewport" content="width=device-width">
 </head>
 
-<body style="margin-top:50px;">
+<body style="margin-top:70px; margin-left:20px;">
 <nav class="navbar navbar-default navbar-fixed-top">
         <div class="container-fluid">
             <!-- Brand and toggle get grouped for better mobile display -->

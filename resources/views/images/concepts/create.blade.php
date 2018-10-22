@@ -7,8 +7,25 @@
     <h1>Image Concepts</h1>
     <h3>This is where we will allow the user to upload image(-s)</h3>
     
-    <form action="{{route('image')}}" method="post">
-        {!! csrf_field() !!}
-        <input type="submit" value="Submit">
+    <form method="POST" action="{{route('image')}}" enctype="multipart/form-data">
+        {{ csrf_field() }}
+        <div class="form-group" >
+            <label for="image">Enter your filename.</label>
+            <input type="file" name="image" id="image" >
+        </div>
+
+        <input type="submit" value="Submit" style="margin-top: 30px;">
     </form>
 @stop
+
+{{-- // Local
+// $input = [
+//     "/Users/rachel/Desktop/cat.jpg",
+//     "/Users/rachel/Desktop/kayak.jpg"
+// ];
+
+//Remote
+// $input = [
+//     "https://samples.clarifai.com/metro-north.jpg",
+//     "https://samples.clarifai.com/wedding.jpg"
+// ];   --}}
