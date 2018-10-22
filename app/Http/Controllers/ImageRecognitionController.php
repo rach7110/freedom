@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 use App\Http\Requests;
 use App\ImageRecognitionInterface;
 use Session;
+use Illuminate\Support\Facades\Input;
 
 class ImageRecognitionController extends Controller
 {
@@ -23,17 +24,10 @@ class ImageRecognitionController extends Controller
 
     public function store()
     {
-        // Local
-        $input = [
-            "/Users/rachel/Desktop/cat.jpg",
-            // "/Users/rachel/Desktop/kayak.jpg"
-        ];
-
-        //Remote
-        // $input = [
-        //     "https://samples.clarifai.com/metro-north.jpg",
-        //     "https://samples.clarifai.com/wedding.jpg"
-        // ];     
+        $file = request()->file('image')->store('images');
+        // var_dump(config('filesystems.disks.local.root') . "/" . $file);
+        
+        //TODO: Validate the file contents.
     
         $response = $this->imageRecognition->send_request($input);
 
