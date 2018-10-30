@@ -21,8 +21,8 @@ class AboutController extends Controller
             'user_message' => $request->get('message')
             ), function($message) 
     	{
-    		$message->from('rachel.loziuk@gmail.com');
-    		$message->to('rachel.loziuk@gmail.com')->subject('You have a new message from your portfolio');
+    		$message->from(config('mail.from.address'));
+    		$message->to(config('mail.to.address'))->subject('You have a new message from your portfolio');
 
     	});
 
