@@ -16,16 +16,14 @@ Resume
     A problem‐solver who prioritizes the needs of the business while always thinking of the end users. Experience working in Web Development, Sales, Project Engineering, and Manufacturing Quality Assurance roles. Passionate about entrepreneurship, technology, and quality. Seeking a company that challenges me while supporting my skill growth.
 </h4>
 
-<hr>
+{{-- <hr>
 <h3>COMPUTER TECHNOLOGIES</h3>
 <hr>
 <div class="row">
     <div class="col-md-4">
         <ul>
-            <li>Object-oriented programming</li>
             <li>PHP</li>
             <li>Laravel</li>
-            <li>Ruby (basic)</li>
             <li>JavaScript</li>
             <li>JQuery</li>
             <li>HTML, CSS</li>
@@ -42,7 +40,7 @@ Resume
             <li>Git</li>
         </ul>
     </div>
-</div>
+</div> --}}
 
 <hr>
 <h3>PROFESSIONAL EXPERIENCE</h3>
@@ -52,13 +50,38 @@ Resume
 <!-- ******************************************************** -->
 <div class="row resume-title">
     <div class="col-md-7">
+        <p class="resume-subtitle">Full Stack Web Developer</p>
+    </div>
+        <div class="col-md-5">
+        <p class="dates">March 2018 - Oct 2018</p>
+    </div>
+</div>
+<div class="row resume-title">
+    <div class="col-md-7">
+        <p class="company-name">CE Learning Systems</p>
+    </div>
+        <div class="col-md-5">
+        <p class="company-location">Remote (based in Austin, TX)</p>
+    </div>
+</div>
+<div class="job-description">
+    <ul>
+        <li>Developed software for applications written in PHP 7, Laravel 5.6, and Javascript </li>
+        <li>Implemented a browser testing suite using Laravel Dusk 3.0</li>
+        <li>Set-up continuous integration for code changes using Jenkins CI</li>
+        <li>Managed source code using Git</li>
+        <li>Work in a remote team environment using Slack for communication and Jira for task management</li>
+    </ul>
+</div>
+<!-- ********************** JOB ************************* -->
+<div class="row resume-title">
+    <div class="col-md-7">
         <p class="resume-subtitle">Web Developer / Customer Service Rep</p>
     </div>
         <div class="col-md-5">
         <p class="dates">April 2014 - June 2017</p>
     </div>
 </div>
-<!-- **********************JOB************************* -->
 <div class="row resume-title">
     <div class="col-md-7">
         <p class="company-name">Regatta Network</p>
@@ -69,15 +92,12 @@ Resume
 </div>
 <div class="job-description">
     <ul>
-        <li>Modify company's legacy product written in PHP</li>
-        <li>Use Laravel, an MVC framework for PHP,  to build out a new web application</li>
-        <li>Design and code new features using PHP, HTML, CSS, JavaScript and jQuery</li>
+        <li>Customer interface via email and phone support for company’s web applications </li>
+        <li>Design and code new features using Laravel 4.2, PHP 5.3 , HTML5, Bootstrap 3, and jQuery</li>
+        <li>Managed bug fixes and new features using Pivotal Tracker</li>
         <li>Use Git for version control</li>
-        <li>Work with databases, MySQL and SQLite</li>
-        <li>Setup different environment configurations for development and production</li>
         <li>Connect to a Rackspace Linux server via ssh and pull new features to the production server</li>
-        <li>Review error logs for troubleshooting</li>
-        <li>Provide product support to users</li>
+        <li>Setup error tracking using BugSnag for product improvements and troubleshooting</li>
     </ul>
 </div>
 <!-- ********************** JOB ************************* -->
@@ -162,31 +182,6 @@ Resume
         <li>Audited vendor inventory on-site for Purchasing and Accounting</li>
         <li>Monitored product quality using statistical process control software</li>
         <li>Created metrics and reported to management on supplier delivery and quality</li>
-    </ul>
-</div>
-<!-- **********************JOB************************* -->
-<div class="row resume-title">
-    <div class="col-md-7">
-        <p class="resume-subtitle">Product Specialist</p>
-    </div>
-        <div class="col-md-5">
-        <p class="dates">Sept 2005 – March 2007</p>
-    </div>
-</div>
-<div class="row resume-title">
-    <div class="col-md-7">
-        <p class="company-name">ITT Bell & Gossett </p>
-    </div>
-        <div class="col-md-5">
-        <p class="company-location">Morton Grove, IL</p>
-    </div>
-</div>
-<div class="job-description">
-    <ul>
-        <li>Provided product technical support for customers and Sales Representatives</li>
-        <li>Researched current market trends for new product implementation</li>
-        <li>Created special quotations for custom products</li>
-        <li>Performed monthly audits on manufacturing cells</li>
     </ul>
 </div>
 <!-- ******************************************************** -->
