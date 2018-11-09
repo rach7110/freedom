@@ -52,40 +52,8 @@ Projects
     <div class="row">
         <!-- PROJECT IMAGE -->
         <div class="col-md-4 center-inline">
-          <a href="http://phrf-calculator.herokuapp.com/" target="_blank">
-            <img src="images/animal-skyblue.png">
-          </a>
-        </div>
-        <!-- PROJECT DESCRIPTION -->
-        <div class="col-md-8">
-            <a href="http://phrf-calculator.herokuapp.com/" target="_blank"><h3>Racing Handicap Calculator</h3></a>
-            <div class="project-description">
-              <p>
-                A sailboat racing calculator. Determines a sailboat's corrected finish time using one of many different handicap systems. Includes a weather API so users can view environmental factors that may affect the results.
-              </p>
-              <!-- CODE BASE-->
-              <p class="tools-header">Tools & Concepts:</p>
-              <div class="btn-group" role="group" aria-label="...">
-                <button type="button" class="btn btn-default"><a href="https://github.com/rach7110/racing-handicap-calculator" target="_blank">Laravel/PHP</a></button>
-              </div>
-              <div class="btn-group" role="group" aria-label="...">
-                <button type="button" class="btn btn-default"><a href="https://github.com/rach7110/racing-handicap-calculator/commit/a4902a831b048626f897a9e85df4d7d4a6ea0b8e" target="_blank">Events & Listeners</a></button>
-              </div>
-              <div class="btn-group" role="group" aria-label="...">
-                <button type="button" class="btn btn-default"><a href="https://github.com/rach7110/racing-handicap-calculator/blob/master/app/Http/Controllers/WeatherController.php" target="_blank">3rd Party API</a></button>
-              </div>
-            </div>
-        </div>
-    </div>
-<!--***************************************-->
-<!-- PROJECT -->
-<!--***************************************-->
-    </br>
-    <div class="row">
-        <!-- PROJECT IMAGE -->
-        <div class="col-md-4 center-inline">
           <a href="https://pure-stardust.herokuapp.com/" target="_blank">
-            <img src="images/animal-orange.png">
+            <img src="images/animal-skyblue.png">
           </a>
         </div>
         <!-- PROJECT DESCRIPTION -->
@@ -102,6 +70,38 @@ Projects
             </div>
         </div>
     </div>
+<!--***************************************-->
+<!-- PROJECT -->
+<!--***************************************-->
+</br>
+<div class="row">
+    <!-- PROJECT IMAGE -->
+    <div class="col-md-4 center-inline">
+      <a href="http://phrf-calculator.herokuapp.com/" target="_blank">
+        <img src="images/animal-orange.png">
+      </a>
+    </div>
+    <!-- PROJECT DESCRIPTION -->
+    <div class="col-md-8">
+        <a href="http://phrf-calculator.herokuapp.com/" target="_blank"><h3>Racing Handicap Calculator</h3></a>
+        <div class="project-description">
+          <p>
+            A sailboat racing calculator. Determines a sailboat's corrected finish time using one of many different handicap systems. Includes a weather API so users can view environmental factors that may affect the results.
+          </p>
+          <!-- CODE BASE-->
+          <p class="tools-header">Tools & Concepts:</p>
+          <div class="btn-group" role="group" aria-label="...">
+            <button type="button" class="btn btn-default"><a href="https://github.com/rach7110/racing-handicap-calculator" target="_blank">Laravel/PHP</a></button>
+          </div>
+          <div class="btn-group" role="group" aria-label="...">
+            <button type="button" class="btn btn-default nohover">Events & Listeners</button>
+          </div>
+          <div class="btn-group" role="group" aria-label="...">
+            <button type="button" class="btn btn-default"><a href="https://github.com/rach7110/racing-handicap-calculator/blob/master/app/Http/Controllers/WeatherController.php" target="_blank">3rd Party API</a></button>
+          </div>
+        </div>
+    </div>
+</div>
 <!--***************************************-->
 <!-- PROJECT -->
 <!--***************************************-->
