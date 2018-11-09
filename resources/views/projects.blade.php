@@ -18,49 +18,6 @@ Projects
 <!-- PROJECT -->
 <!--***************************************-->
     </br>
-    <div class="row">
-        <!-- PROJECT IMAGE -->
-        <div class="col-md-4 center-inline">
-          <a href="http://my.regattanetwork.com" target="_blank">
-            <img src="images/animal-blue.png">
-          </a>
-        </div>
-
-        <div class="col-md-8">
-        <!-- PROJECT TITLE -->
-            <a href="http://my.regattanetwork.com" target="_blank"><h3>My Regatta Network</h3></a>
-          <!-- PROJECT DESCRIPTION -->
-            <div class="project-description">
-              <p>
-                This web application is every sailor's best friend as it helps them stay organized with their events and registrations. It was built for a company using the PHP framework, Laravel. It uses HTML, CSS, and JavaScript. It also uses a Google API to help suggest events near the user by converting her street address to latitude and longitude. This project required knowledge beyond the front-end and back-end coding. I started with user journeys and mock-ups to plan the front-end designs. I also used flowcharts to design the database architecture.
-                </p>
-              <p>
-                NOTE: This site contains several several links to the company's legacy project. Any URL with my.regattanetwork.com is part of the project that I built. However, any URL that begins with www.regatttanetwork.com was built years ago by a different development team.
-              </p>
-              <a href="http://my.regattanetwork.com" target="_blank"><h4>Feel free sign-in and explore</h4></a>
-              <div class="sign-in">
-                <ul>
-                <li><p>username: tester@gmail.com</p></li>
-                <li><p>password: tester</p></li>
-              </ul>
-              </div>
-
-              <!-- CODE BASE-->
-              <p class="tools-header">Tools & Concepts:</p>
-              <div class="btn-group" role="group" aria-label>
-                <button type="button" class="btn btn-default nohover">Laravel/PHP</button>
-                <button type="button" class="btn btn-default nohover">API</button>
-                <button type="button" class="btn btn-default nohover">Database design</button>
-                <button type="button" class="btn btn-default nohover">Design Mockups</button>
-                <button type="button" class="btn btn-default nohover">HTML</button>
-                <button type="button" class="btn btn-default nohover">CSS</button>
-                <button type="button" class="btn btn-default nohover">JavaScript/JQuery</button>
-              </div>
-            </div>
-            <p>(Code is proprietary)</p>
-
-        </div>
-    </div>
 <!--***************************************-->
 <!-- PROJECT -->
 <!--***************************************-->
