@@ -18,6 +18,33 @@ Projects
 <!-- PROJECT -->
 <!--***************************************-->
     </br>
+    <div class="row">
+        <!-- PROJECT IMAGE -->
+        <div class="col-md-4 center-inline">
+          <img src="images/animal-blue.png">
+        </div>
+        <!-- PROJECT DESCRIPTION -->
+        <div class="col-md-8">
+            <h3>Image Recognition API</h3>
+            <div class="project-description">
+              <p>
+                A project that utilizes a 3rd party image recognition API to determine file content. An interface was binded to 
+                the Laravel Service Container so that the 3rd party API could be swapped out easily if needed in the future.
+              </p>
+              <!-- CODE BASE-->
+              <p class="tools-header">Tools & Concepts:</p>
+              <div class="btn-group" role="group" aria-label="...">
+                <button type="button" class="btn btn-default"><a href="https://github.com/rach7110/pict/blob/master/app/Services/ImageRecognition/ClarifaiImageRecognition.php" target="_blank">Writing a Service</a></button>
+              </div>
+              <div class="btn-group" role="group" aria-label="...">
+                <button type="button" class="btn btn-default"><a href="https://github.com/rach7110/pict/blob/master/app/Providers/ImageRecognitionServiceProvider.php" target="_blank">Laravel Service Container</a></button>
+              </div>
+              <div class="btn-group" role="group" aria-label="...">
+                <button type="button" class="btn btn-default"><a href="https://github.com/rach7110/pict/blob/master/tests/Unit/ClarifaiImageRecognitionTest.php" target="_blank">Unit Testing</a></button>
+              </div>
+            </div>
+        </div>
+    </div>
 <!--***************************************-->
 <!-- PROJECT -->
 <!--***************************************-->
